@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.45.1" />
+  <meta name="author" content="Enayet Raheem">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="If you are exploring the hot field of Data Science today, you probably know by now that there is no unique way to define data science. Everyone’s perspective comes from their respective backgrounds. Statisticians think they are data scientists while CS folks think they are.
+I would not go into the debate.
+Both have truth in their arguments as the typical problems they solve are quite different. There are some exceptions where their workflows overlap.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/statisticians-in-the-data-science-era/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js//styles/github.min.css">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-684495-5', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Enayetur Raheem">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Enayetur Raheem">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/statisticians-in-the-data-science-era/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@eraheem">
+  <meta property="twitter:creator" content="@eraheem">
+  
+  <meta property="og:site_name" content="Enayetur Raheem">
+  <meta property="og:url" content="/post/statisticians-in-the-data-science-era/">
+  <meta property="og:title" content="Statisticians in the Data Science Era | Enayetur Raheem">
+  <meta property="og:description" content="If you are exploring the hot field of Data Science today, you probably know by now that there is no unique way to define data science. Everyone’s perspective comes from their respective backgrounds. Statisticians think they are data scientists while CS folks think they are.
+I would not go into the debate.
+Both have truth in their arguments as the typical problems they solve are quite different. There are some exceptions where their workflows overlap.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-09-04T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2017-09-04T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Statisticians in the Data Science Era | Enayetur Raheem</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Enayetur Raheem</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Statisticians in the Data Science Era</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Enayet Raheem">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2017-09-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2017-09-04 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Sep 4, 2017
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Enayet Raheem">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/statisticians-in-the-data-science-era/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/career/">Career</a>
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Statisticians%20in%20the%20Data%20Science%20Era&amp;url=%2fpost%2fstatisticians-in-the-data-science-era%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fstatisticians-in-the-data-science-era%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fstatisticians-in-the-data-science-era%2f&amp;title=Statisticians%20in%20the%20Data%20Science%20Era"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fstatisticians-in-the-data-science-era%2f&amp;title=Statisticians%20in%20the%20Data%20Science%20Era"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Statisticians%20in%20the%20Data%20Science%20Era&amp;body=%2fpost%2fstatisticians-in-the-data-science-era%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>If you are exploring the hot field of Data Science today, you probably know by now that there is no unique way to define data science. Everyone’s perspective comes from their respective backgrounds. Statisticians think they are data scientists while CS folks think they are.</p>
+
+<p>I would not go into the debate.</p>
+
+<p>Both have truth in their arguments as the typical problems they solve are quite different. There are some exceptions where their workflows overlap. Let me provide some thoughts from my perspective.</p>
+
+<p>I am a statistician by training and I have been in the analytic world for over 15 years. This includes time spent at universities teaching graduate level statistics courses as well as working in the healthcare industry as a data scientist.</p>
+
+<h1 id="three-types-of-statisticians">Three types of Statisticians</h1>
+
+<p>Like many scientific disciplines, statisticians contribute to the science in two different ways.</p>
+
+<p>First, through theoretical contribution to the scientific literature to advance the knowledge. In this type of work, statisticians focus on developing new methods to solve new problems or improving existing methods. In statistical science, any new theoretical development takes several years, sometimes decades, to gain popularity among the mainstream practitioners. Part of it is due to the availability of software packages or lack thereof that the practitioners are most familiar with. And there are some other reasons too.</p>
+
+<p>Secondly, the works of applied statisticians and applied researchers including epidemiologists who focus on solving problems that need an immediate solution. Most of the time they utilize already developed statistical methods in their workflow. Here’s where most of the overlap happens between the works of applied statisticians and practitioners of statistics.</p>
+
+<p>However, there is no strict boundary between applied and theoretical statisticians. Often, applied statisticians develop new methods to solve an existing problem. Thus, the third kind of statisticians are those who fall somewhere in between theoretical statisticians and applied statisticians.</p>
+
+<h1 id="towards-data-science">Towards Data Science</h1>
+
+<p>There are, however, some philosophical differences between these two types of statisticians. Theoretical researchers often think they are superior to their counterpart, while the applied folks think they are the ones whose contributions have a real impact. Both are wrong, in my honest opinion.</p>
+
+<p>Compared to their peers, Applied Statisticians find their views better aligned with the theme of today’s data science. This is perhaps because of the way they were trained during their academic years.</p>
+
+<p>Applied statisticians are taught and trained to use data to bring insights out of it. They are trained not only to fit a model and know how it works but also to communicate with their customers in non-technical terms. Intuition is all that takes priority over theoretical derivations. As Jo Hardin points <sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>,</p>
+
+<blockquote>
+<p>.. when teaching, for example, the Neyman-Pearson lemma, the intuition behind how we know what we know (and why it matters) is vastly more fundamental for the students’ future research capabilities than the detailed steps of the proof.</p>
+</blockquote>
+
+<p>I think it is vital for a student of statistics to learn and think this way to become successful in today’s job market.</p>
+
+<h1 id="data-scientist-vs-data-engineers">Data Scientist Vs Data Engineers</h1>
+
+<p>The difference between many types of data scientists is often confusing even to the statisticians. Sometimes, data scientists and data engineers are considered equally. In fact, the type of work they do is quite different.</p>
+
+<p>Let me clarify one thing–data scientists do not necessarily design the databases. It is the data engineers who do that. Data scientists analyze the data to drive business whereas data engineers develop and maintain that architecture.  Data scientists or statisticians do not build or maintain databases. Most large organizations have their separate team of engineers who develop and maintain the data-science platforms (DBs, Hadoop, etc.).</p>
+
+<p>Do the statisticians need to know a bit of database? Yes, a basic understanding is good enough. Most of the time all you will do is pull some tables from different sources and join them to create a working data set. For that, you need to understand basics and you do not have to be a data architect for that. If you are working in a startup company, then you may be required to understand in greater depth, though as they have less manpower.</p>
+
+<p>How big of a deal knowing how to efficiently join tables? Not so big. Anyone with a decent knowledge of data and SQL can learn to do it with some reading and practice. But you have to have the mindset of learning in the first place.</p>
+
+<h1 id="use-of-statistics">Use of Statistics</h1>
+
+<p>In my work, I find statistics invaluable although most of the time we do not use many advanced techniques. And this is by far true for most organizations who utilize data for decision-making. High-level analysis such as modeling and machine learning stay at the very top level of the application pyramid. You still need to lay the foundation using basic analysis and visualizations.</p>
+
+<p>How media is portraying data science today (such as deep learning and AI) is what perhaps 1% of all the analytics an organization needs. Many large organizations do not hire people for that. They purchase a solution instead as that is more cost-effective. For many problems where deep learning is not applicable, they need analytic people with decent statistical literacy.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Data Science as it’s being understood today solves problems that are, for the most part, quite different than the problems that would need statisticians’ help to solve. Being on both sides of the aisle I can see how they complement each other and how they both are relevant.</p>
+
+<p>Let me know what’s your thoughts are. And please share this article if you find it useful.</p>
+
+<p>Thank you!</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Jo Harding (2017). Expectations and Skills for Undergraduate Students Doing Research in Statistics and Data Science, AMSTAT Newsletter
+ <a class="footnote-return" href="#fnref:1"><sup>^</sup></a></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="/tags/career/">Career</a>
+  
+  <a class="label label-default" href="/tags/statjobs/">StatJobs</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/preparing-for-statistics-jobs-in-the-industry/">Preparing for statistics jobs in the industry</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "raheems" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//raheems.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

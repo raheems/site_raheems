@@ -1,0 +1,55 @@
+---
+title: Python using RStudio IDE
+author: Enayet Raheem
+date: '2018-02-22'
+categories:
+  - Analytics
+tags:
+  - Python
+slug: python-using-rstudio-ide
+math: yes
+draft: yes
+---
+
+
+This is test post to check if Python code works. This is test.
+
+```{r}
+library(reticulate)
+```
+
+
+```{python}
+import numpy as np
+x = [1, 2, 3]
+print(x)
+y = np.mean(x)
+```
+
+$\bar{x}$ is the average, which is defined as 
+\[
+\bar{x} = \frac{\sum x}{n}
+\]
+
+So what is the aveage of ```y```? It is ```r py$y```.
+
+```{r}
+x = c(1:5)
+```
+
+The value of x is R session is ```r x```.
+
+More text is to be added.
+
+
+# R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+fit
+```

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enayetur Raheem on Enayetur Raheem</title>
+    <link>/</link>
+    <description>Recent content in Enayetur Raheem on Enayetur Raheem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Frequently used git commands</title>
+      <link>/post/frequently-used-git-commands/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/frequently-used-git-commands/</guid>
+      <description>
+
+&lt;p&gt;Thinking of using github? Great.&lt;/p&gt;
+
+&lt;p&gt;Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. &amp;ldquo;GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:wikipedia&#34;&gt;&lt;a href=&#34;#fn:wikipedia&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;copying-a-remote-repository-to-local&#34;&gt;Copying a remote repository to local&lt;/h1&gt;
+
+&lt;p&gt;To bring a remote repository to your local host (computer where you are working), use the &lt;code&gt;git clone&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git clone https://github.com/username/repository_name.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;publishing-the-changes&#34;&gt;Publishing the changes&lt;/h1&gt;
+
+&lt;p&gt;After you update your code or add or remove anything from the repository, you want to publish to the remote repository.&lt;/p&gt;
+
+&lt;p&gt;Publishing the changes is called &lt;code&gt;push&lt;/code&gt; in git jargon. For that you need to write the following codes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git add -A 
+git commit -m &amp;quot;Message/notes of what the changes are&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will update the local repository. Now you want to publish the changes using the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You may want to be more specific about which &lt;em&gt;remote&lt;/em&gt; to update. The default &lt;em&gt;remote&lt;/em&gt; is &lt;strong&gt;origin&lt;/strong&gt;. The command would be&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;syncing-a-remote-repository-on-two-local-hosts&#34;&gt;Syncing a remote repository on two local hosts&lt;/h1&gt;
+
+&lt;p&gt;Sometime I work on two or three different computers for the same remote project. I want my codes to be synced accross multiple computers. I sometime work from office using a PC. Sommetime I work from home where I use a Mac. So keeyping the repositories in sycned is essential.&lt;/p&gt;
+
+&lt;p&gt;For that I follow these simple steps.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- Pull the remote repository in your new workstation
+- Make changes to your code
+- Push (publish) the updates
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The key is to pull and update the local repository assuming the remote has the latest updates.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-git&#34;&gt;git pull
+git add -A
+git comit -m &amp;quot;Update message&amp;quot;
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Last updated: 2018-07-26&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:wikipedia&#34;&gt;&lt;a href=&#34;https://www.wikipedia.org&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:wikipedia&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chikungunya outbreak (2017) in Bangladesh: Clinical profile, economic impact and quality of life during the acute phase of the disease</title>
+      <link>/publication/chikungunya-outbreak-dhaka-bangladesh-2017/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chikungunya-outbreak-dhaka-bangladesh-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing autism spectrum disorder in developing countries by utilizing existing resources: A perspective from Bangladesh</title>
+      <link>/publication/managing-autism-developing-countries/</link>
+      <pubDate>Mon, 28 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/managing-autism-developing-countries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>/project/ml/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python using RStudio IDE</title>
+      <link>/post/python-using-rstudio-ide/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/python-using-rstudio-ide/</guid>
+      <description>&lt;p&gt;This is test post to check if Python code works. This is test.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(reticulate)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;import numpy as np
+x = [1, 2, 3]
+print(x)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1, 2, 3]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;y = np.mean(x)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\bar{x}\)&lt;/span&gt; is the average, which is defined as &lt;span class=&#34;math display&#34;&gt;\[
+\bar{x} = \frac{\sum x}{n}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So what is the aveage of &lt;code&gt;y&lt;/code&gt;? It is &lt;code&gt;2&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x = c(1:5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The value of x is R session is &lt;code&gt;1, 2, 3, 4, 5&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;More text is to be added.&lt;/p&gt;
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Tue, 20 Feb 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pattern of hematological malignancies in adolescents and young adults in Bangladesh</title>
+      <link>/publication/pattern-hematological-malignancy/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/pattern-hematological-malignancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To the Aspiring Data Scientists</title>
+      <link>/post/to-the-aspiring-data-scientists/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/to-the-aspiring-data-scientists/</guid>
+      <description>
+
+&lt;p&gt;A lot of times interested folks contact me with a question like this: ‘I want to be a data scientist; can you help?’&lt;/p&gt;
+
+&lt;p&gt;Well, I wish I could. The reality is, I won’t be able to unless I really understand what you want and why you want it.&lt;/p&gt;
+
+&lt;p&gt;Firstly because guiding someone is next to impossible in this time and era when everything is so convoluted. People come to learn with preconceived ideas and notions. I am not saying you have to come with a blank slate, what I am saying is you need to show real motivation. I repeat, you must have a motivation and you must be able to articulate why you are motivated.&lt;/p&gt;
+
+&lt;p&gt;There is no shortage of tutorials, courses, documents, websites, articles today on how to become a data scientist. Sadly, most of the times there is a business mind lurking behind such documents and campaigns. They will tell you only partial truth. They will tell you that you can become a data scientist in 4 months, or in 6 months, or by completing a boot camp and so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;In my opinion, if you already have the background of a typical data scientist (have worked with data, have knowledge of scientific process, programming skills in R, Python, SAS, or any relevant language), then yes, you can acquire the knowledge and become familiar with the tools that data science utilizes within a short period of time.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, if you are a complete novice, you will not only be deceived by these campaigns but also become frustrated quickly. This is because you were drawn to something for which you were not prepared for. And you did not anticipate the challenges you would face to become a data scientist.&lt;/p&gt;
+
+&lt;p&gt;Now let’s come to the main point.&lt;/p&gt;
+
+&lt;h1 id=&#34;why-do-you-want-to-become-one&#34;&gt;Why do you want to become one&lt;/h1&gt;
+
+&lt;p&gt;Ask yourself the “why” question and give an honest answer. What is your response?&lt;/p&gt;
+
+&lt;p&gt;It is perfectly okay to say that you want to be a data scientist because the market is hot.&lt;/p&gt;
+
+&lt;p&gt;But the best approach would be to write a few points on a piece of paper as to why do you want to become a data scientist.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Point 1&lt;/li&gt;
+&lt;li&gt;Point 2&lt;/li&gt;
+&lt;li&gt;Point 3&lt;/li&gt;
+&lt;li&gt;Point 4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You could list that you are passionate about working with data; you want to make an impact by helping the management or team leaders making the right decision based on data, or you just enjoy solving other’s problems with data.&lt;/p&gt;
+
+&lt;p&gt;Whatever may be your reasons, it is important to list them down. Listening makes you look at it by yourself. That helps you to assess whether this is really something you want to do.&lt;/p&gt;
+
+&lt;p&gt;Motivation is the key.&lt;/p&gt;
+
+&lt;h1 id=&#34;know-what-is-data-science-and-who-are-data-scientists&#34;&gt;Know what is data science and who are data scientists&lt;/h1&gt;
+
+&lt;p&gt;Before you jump into this field, do some research about the field. Google it, find some blogs to follow, read some whitepapers from reputed analytic organizations and software companies such as SAS, IBM, Google, Microsoft and many others. Spend some time reading. Not just skimming through; actual reading. To me, reading is the best way to broaden knowledge. In this era of YouTube and video lectures, I still find reading somewhat superior, especially for beginners. Once you have acquired a general understanding of the field, listening to lectures or watching short video clips would boost your knowledge quickly.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-do-data-scientists-do&#34;&gt;What do data scientists do&lt;/h1&gt;
+
+&lt;p&gt;I will write briefly. I am working work on a separate article on it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Data scientists solve problems with the help of data. That’s what they do.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On paper, Data Scientists do so many things that someone with a title of data scientist in one industry cannot possibly list what another data scientist might be doing in a different industry. That is to give you an idea of how variable the type of works data scientists is involved with.&lt;/p&gt;
+
+&lt;p&gt;Simply put, data scientists work with data to bring actionable insight that helps to solve a problem. If the data scientist is working in a financial organization, the problems would be related to, say, banking industry, the stock market, etc. If the data scientist works in healthcare, the problem would be related to healthcare service provider such as hospitals, health units.&lt;/p&gt;
+
+&lt;p&gt;Data scientists do not necessarily get involved with building the data architecture such as data warehousing or setting up or maintaining cloud infrastructure for an organization. Those who work in this type of work are called ‘Data Engineers’. You may want to read a little more about this in my earlier post (in Bengali).&lt;/p&gt;
+
+&lt;p&gt;Let me clarify one thing–data scientists do not necessarily design the databases. It is the data engineers who do that. Data scientists analyze the data to drive business whereas data engineers develop and maintain the architecture that stores data. Data scientists or statisticians do not build or maintain databases in most of the cases. However, there is often a need to create smaller databases for a specific purpose or a project. A data scientist may need to design, develop and maintain project-specific databases, which are largely different from enterprise-level data warehouse.&lt;/p&gt;
+
+&lt;p&gt;Most large organizations have their separate team of engineers who develop and maintain the data-science platforms (DBs, Hadoop, etc.).&lt;/p&gt;
+
+&lt;h1 id=&#34;how-to-become-a-data-scientist&#34;&gt;How to become a data scientist&lt;/h1&gt;
+
+&lt;p&gt;Everyone wants to be a data scientist but only some will be successful. The reason is in part, your preparation, in part your effort. If you are not from a quantitative background with some math, and computer programming experience, I would say it would be a daunting task for you to learn what it takes to be a data scientist. I am completely being honest.&lt;/p&gt;
+
+&lt;p&gt;At some point in time, you are going to read and write computer programs.&lt;/p&gt;
+
+&lt;p&gt;If you’ve never written a computer program, I am not sure how long it will take for you to pick up a language. But I personally feel that it takes at least 6 months to get some basics of any programming language. Another year or so to know a bit more. If you engage yourself full time to learn a language, you might be able to write simple programs and carry out simple data science tasks within 4-6 months.&lt;/p&gt;
+
+&lt;h1 id=&#34;two-approaches-to-be-a-data-scientist&#34;&gt;Two approaches to be a Data Scientist&lt;/h1&gt;
+
+&lt;p&gt;Learn the tools to become data scientist, or
+Find the problems you want to solve, and then learn what it takes to solve them&lt;/p&gt;
+
+&lt;p&gt;The first approach is the typical approach and I call it bottom-up approach. I will not discuss the first approach because it has been the mainstream approach thus far. This has brought so many discussions, lot of training offerings, online courses, articles in the media, blogs, and vlogs, and much more.&lt;/p&gt;
+
+&lt;p&gt;I will focus on the second approach to becoming a data scientist. I call it top-down approach.&lt;/p&gt;
+
+&lt;h1 id=&#34;find-problems-that-you-want-to-solve&#34;&gt;Find problems that you want to solve&lt;/h1&gt;
+
+&lt;p&gt;This is perhaps the easiest way to find out if you really want to be a data scientist. If so, keep reading.&lt;/p&gt;
+
+&lt;p&gt;I call this approach a top-down approach, you first find a problem and then solve it.&lt;/p&gt;
+
+&lt;p&gt;As I wrote earlier in this article, data scientists solve problems with the help of data. In other words, they have a problem to solve in front of them and they would provide a solution using data.&lt;/p&gt;
+
+&lt;p&gt;Now this may sound like, well, problem is there, the data is there, so what’s the big deal?&lt;/p&gt;
+
+&lt;p&gt;It’s not a big deal, but its a huge deal.&lt;/p&gt;
+
+&lt;p&gt;Having the data is only one step to solving the problem. What if you do not have the data in the right form, or you do not have the data in the first place. If you have the data, it often takes 80% of your time to prepare it for your analysis.&lt;/p&gt;
+
+&lt;p&gt;If you do not have the data, then you first need to get the data in the first place.&lt;/p&gt;
+
+&lt;h1 id=&#34;where-do-i-find-problem&#34;&gt;Where do I find problem?&lt;/h1&gt;
+
+&lt;p&gt;Well, problems are everywhere, you just have to look around.&lt;/p&gt;
+
+&lt;p&gt;I am going to give you some ideas which should give you enough clues to find a problem on your own and discover what it takes to solve those problems. Here goes the list with brief descriptions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 1:&lt;/strong&gt; Building a list of most important news of the day&lt;/p&gt;
+
+&lt;p&gt;This may sound like an unattractive problem. But think about how you might want to use the information. First, you need to think about a focus area. If you are interested in politics, the possibilities are endless. If you build a list exclusively on “North Korea”, you would find at the end of the year how the things unfolded and you can present the information on a timescale. The importance of such a list is to be able to find temporal relationship between different events which may affect some other event/outcome of interest.&lt;/p&gt;
+
+&lt;p&gt;You might be aware that news or sometimes a tweet from an influential person can affect the stock price of a particular company in the US stock market.  But this could be useful beyond US market. You will find many potential use cases if you think a bit deep.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 2:&lt;/strong&gt; Tracking accident statistics&lt;/p&gt;
+
+&lt;p&gt;This problem is particularly suitable for resource-limited countries where government record keeping is inadequate. Every day newspapers report accidental deaths due to road crashes. You could select one or two major newspapers and scan their pages to retrieve news about road accidents. This could be done as part of a research project at your institution where you pursue a Bachelors or Masters degree.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 3:&lt;/strong&gt; Calculating impact of  faculty research&lt;/p&gt;
+
+&lt;p&gt;This is something you can do for your department, or institution or country. Start with your department first where you have only a handful of faculties who are presumably doing some kind of research and publishing their findings in journals. Think of developing an automated system that would find articles (in Google Scholar, for example) and calculate impacts (from the journal impact factors). You can present the results by department, by type of research, or by institution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 4:&lt;/strong&gt; Build an economic performance dashboard&lt;/p&gt;
+
+&lt;p&gt;You can use Google’s Data Studio to build a dashboard of economic performance of your country on some key performance metrics. The data could be found on the central bank’s website or government data repositories. For Bangladesh, many economic data sets are available online free of charge. Just visit &lt;a href=&#34;https://www.bb.org.bd/econdata/&#34; target=&#34;_blank&#34;&gt;https://www.bb.org.bd/econdata/&lt;/a&gt; and find your data there.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;In conclusion, you can take the easier route to be a data scientist. In this route, you first need to find a problem and you will point your learning path towards solving that problem. The path is not smooth. But you can always ask questions to someone who knows or someone more experienced. It is a good practice to find someone who would be your mentor and will guide you through your learning path. Since you are learning on your own, you have to take the responsibility on your own. If you do not want to learn, nobody is going to push. If you are really interested and motivated, I hope this article has given you some direction.&lt;/p&gt;
+
+&lt;p&gt;Happy learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statisticians in the Data Science Era</title>
+      <link>/post/statisticians-in-the-data-science-era/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/statisticians-in-the-data-science-era/</guid>
+      <description>
+
+&lt;p&gt;If you are exploring the hot field of Data Science today, you probably know by now that there is no unique way to define data science. Everyone’s perspective comes from their respective backgrounds. Statisticians think they are data scientists while CS folks think they are.&lt;/p&gt;
+
+&lt;p&gt;I would not go into the debate.&lt;/p&gt;
+
+&lt;p&gt;Both have truth in their arguments as the typical problems they solve are quite different. There are some exceptions where their workflows overlap. Let me provide some thoughts from my perspective.&lt;/p&gt;
+
+&lt;p&gt;I am a statistician by training and I have been in the analytic world for over 15 years. This includes time spent at universities teaching graduate level statistics courses as well as working in the healthcare industry as a data scientist.&lt;/p&gt;
+
+&lt;h1 id=&#34;three-types-of-statisticians&#34;&gt;Three types of Statisticians&lt;/h1&gt;
+
+&lt;p&gt;Like many scientific disciplines, statisticians contribute to the science in two different ways.&lt;/p&gt;
+
+&lt;p&gt;First, through theoretical contribution to the scientific literature to advance the knowledge. In this type of work, statisticians focus on developing new methods to solve new problems or improving existing methods. In statistical science, any new theoretical development takes several years, sometimes decades, to gain popularity among the mainstream practitioners. Part of it is due to the availability of software packages or lack thereof that the practitioners are most familiar with. And there are some other reasons too.&lt;/p&gt;
+
+&lt;p&gt;Secondly, the works of applied statisticians and applied researchers including epidemiologists who focus on solving problems that need an immediate solution. Most of the time they utilize already developed statistical methods in their workflow. Here’s where most of the overlap happens between the works of applied statisticians and practitioners of statistics.&lt;/p&gt;
+
+&lt;p&gt;However, there is no strict boundary between applied and theoretical statisticians. Often, applied statisticians develop new methods to solve an existing problem. Thus, the third kind of statisticians are those who fall somewhere in between theoretical statisticians and applied statisticians.&lt;/p&gt;
+
+&lt;h1 id=&#34;towards-data-science&#34;&gt;Towards Data Science&lt;/h1&gt;
+
+&lt;p&gt;There are, however, some philosophical differences between these two types of statisticians. Theoretical researchers often think they are superior to their counterpart, while the applied folks think they are the ones whose contributions have a real impact. Both are wrong, in my honest opinion.&lt;/p&gt;
+
+&lt;p&gt;Compared to their peers, Applied Statisticians find their views better aligned with the theme of today’s data science. This is perhaps because of the way they were trained during their academic years.&lt;/p&gt;
+
+&lt;p&gt;Applied statisticians are taught and trained to use data to bring insights out of it. They are trained not only to fit a model and know how it works but also to communicate with their customers in non-technical terms. Intuition is all that takes priority over theoretical derivations. As Jo Hardin points &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;.. when teaching, for example, the Neyman-Pearson lemma, the intuition behind how we know what we know (and why it matters) is vastly more fundamental for the students’ future research capabilities than the detailed steps of the proof.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think it is vital for a student of statistics to learn and think this way to become successful in today’s job market.&lt;/p&gt;
+
+&lt;h1 id=&#34;data-scientist-vs-data-engineers&#34;&gt;Data Scientist Vs Data Engineers&lt;/h1&gt;
+
+&lt;p&gt;The difference between many types of data scientists is often confusing even to the statisticians. Sometimes, data scientists and data engineers are considered equally. In fact, the type of work they do is quite different.&lt;/p&gt;
+
+&lt;p&gt;Let me clarify one thing–data scientists do not necessarily design the databases. It is the data engineers who do that. Data scientists analyze the data to drive business whereas data engineers develop and maintain that architecture.  Data scientists or statisticians do not build or maintain databases. Most large organizations have their separate team of engineers who develop and maintain the data-science platforms (DBs, Hadoop, etc.).&lt;/p&gt;
+
+&lt;p&gt;Do the statisticians need to know a bit of database? Yes, a basic understanding is good enough. Most of the time all you will do is pull some tables from different sources and join them to create a working data set. For that, you need to understand basics and you do not have to be a data architect for that. If you are working in a startup company, then you may be required to understand in greater depth, though as they have less manpower.&lt;/p&gt;
+
+&lt;p&gt;How big of a deal knowing how to efficiently join tables? Not so big. Anyone with a decent knowledge of data and SQL can learn to do it with some reading and practice. But you have to have the mindset of learning in the first place.&lt;/p&gt;
+
+&lt;h1 id=&#34;use-of-statistics&#34;&gt;Use of Statistics&lt;/h1&gt;
+
+&lt;p&gt;In my work, I find statistics invaluable although most of the time we do not use many advanced techniques. And this is by far true for most organizations who utilize data for decision-making. High-level analysis such as modeling and machine learning stay at the very top level of the application pyramid. You still need to lay the foundation using basic analysis and visualizations.&lt;/p&gt;
+
+&lt;p&gt;How media is portraying data science today (such as deep learning and AI) is what perhaps 1% of all the analytics an organization needs. Many large organizations do not hire people for that. They purchase a solution instead as that is more cost-effective. For many problems where deep learning is not applicable, they need analytic people with decent statistical literacy.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Data Science as it’s being understood today solves problems that are, for the most part, quite different than the problems that would need statisticians’ help to solve. Being on both sides of the aisle I can see how they complement each other and how they both are relevant.&lt;/p&gt;
+
+&lt;p&gt;Let me know what’s your thoughts are. And please share this article if you find it useful.&lt;/p&gt;
+
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Jo Harding (2017). Expectations and Skills for Undergraduate Students Doing Research in Statistics and Data Science, AMSTAT Newsletter
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>চিকুনগুনিয়া রিসার্চ স্টাডিতে অংশগ্রহণ</title>
+      <link>/post/chikungunya-research-study-bangladesh/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/chikungunya-research-study-bangladesh/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;আপনার অথবা নিকটজনের চিকুনগুনিয়া হয়ে থাকলে আমাদের স্টাডিতে অংশ নিতে আহবান জানাচ্ছি। এখন শুধু আগ্রহীদের তালিকা করছি। পরবর্তীতে রিসার্চ প্রটোকল অনুযায়ি নির্বাচিত হলে আপনার সাথে যোগাযোগ করা হবে।&lt;/em&gt; সার্ভে ফরমটি এই পাতার নীচে দেয়া আছে।&lt;/p&gt;
+
+&lt;p&gt;বাংলাদেশে সম্প্রতি চিকুনগুনিয়া (Chikungunya) রোগের প্রাদুর্ভাব দেখা দিয়েছে। এটি ডেঙ্গি (Dengue) রোগের মতো একই রকম লক্ষণ প্রকাশ করলেও আক্রান্ত রোগীর উপর এর প্রভাব আলাদা এবং ক্ষেত্রেবিশেষে ভয়াবহ।&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://brfbd.org/&#34; target=&#34;_blank&#34;&gt;বায়োমেডিক্যাল রিসার্চ ফাউন্ডেশন বাংলাদেশ&lt;/a&gt; চিকুনগুনিয়ায় আক্রান্ত রোগীদের উপর গবেষণার উদ্যোগ নিয়েছে। বেশ কয়েকটি লক্ষ্যকে সামনে নিয়ে একাধিক প্রকল্প তৈরীর কাজ চলছে। এতে অংশ নিচ্ছে দেশে এবং বিদেশে কর্মরত বাংলাদেশী ডাক্তার এবং পাবলিক হেলথ গবেষকবৃন্দ। এই উদ্যোগে আপনাদের অংশগ্রহণের আহবান জানাচ্ছি।&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://novatravelclinic.com/wp-content/uploads/2013/11/chikungunya.jpg2_.png&#34; alt=&#34;চিকুন গুনিয়া&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ছবির স্বত্ব: &lt;a href=&#34;http://novatravelclinic.com&#34; target=&#34;_blank&#34;&gt;নোভা ট্রাভেল ক্লিনিক&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;ক-ভ-ব-গব-ষণ-কর-হব&#34;&gt;কীভাবে গবেষণা করা হবে&lt;/h1&gt;
+
+&lt;p&gt;চিকুনগুনিয়া রিসার্চ প্রজেক্ট সায়েন্টিফিক্যালি এস্টাব্লিস্ট করতে প্রথমে প্রমাণ করতে হবে আসলেই আমাদের চিকুনগুনিয়া হয়েছিল। শুধুমাত্র ক্লিনিক্যাল লক্ষণের উপর ভিত্তি করে তা বলা যাবে না। এজন্য ল্যাব ডায়াগনোসিস এর মাধ্যমে প্রমাণিত এবং নিশ্চিত কেইস (রোগী) প্রয়োজন। সে সমস্ত নিশ্চিত কেইস হবে ক্লিনিক্যাল কেইসের ভিত্তি!&lt;/p&gt;
+
+&lt;p&gt;সমস্যা হচ্ছে চিকুনগুনিয়া বা অন্যান্য ভাইরাল জ্বরের জন্য সাধারণত চিকিৎসকরা মেডিকেল টেস্ট দেন না। ইমিউনোলজিক্যাল পজিটিভ কেইস পেতে প্রায় ৭ দিন অপেক্ষা করতে হয়ে। এর মধ্যেই সাধারণত জ্বর ভাল হয়ে যায়। তাই সাধারণত ভাইরাল জ্বরের ক্ষেত্রে ল্যাব টেস্ট তেমন বেনিফিট দেয় না। সাধারণত রোগীর অবস্থা খারাপ হলে টেস্ট রেকমেন্ড করা হয়।&lt;/p&gt;
+
+&lt;p&gt;মলিকিউলার টেস্ট লক্ষণ প্রকাশের ৩-৪ দিনের মধ্যেই করতে হয়। এটি খুব দামী টেস্ট। দেশে এই সেক্টর তেমন ডেভলপ করেনি।
+ভাল খবর হচ্ছে বেশ কয়েকজন রোগীর ইমিউনোলজিক্যাল টেস্ট রিপোর্টে চিকুনগুনিয়া পজিটিভ পাওয়া গেছে যার সাথে পরিচিত অনেকের যাদের এই রোগ হয়েছিল তাদের ক্লিনিক্যাল লক্ষণগুলো হুবহু মিলে যায়!&lt;/p&gt;
+
+&lt;p&gt;বেশকিছু পজিটিভ কেইস পেলে আমাদের স্টাডির সায়েন্টিফিক বেসিস দাঁড়িয়ে যাবে ইনশাল্লাহ। আপনাদের সার্কেলে ব্লাড টেস্ট পজিটিভওয়ালা কেউ জানা থাকলে আমাদের কাইন্ডলি জানাবেন। আপনার দেয়া তথ্য সায়েন্টিফিক স্টাডি দাঁড় করাতে ভূমিকা রাখতে পারে।&lt;/p&gt;
+
+&lt;p&gt;চিকুনগুনিয়া জ্বরে ভোগা এমন কিছু রোগির কেইস আমাদের রিসার্চে প্রয়োজন যারা ব্লাড (ইমিউনোলজিক্যাল) বা PCR টেস্টের মাধ্যমে পজিটিভ প্রমাণিত হয়েছেন। কেউ এ বিষয়ে জেনে থাকলে আমাদের জানাবেন প্লিজ।&lt;/p&gt;
+
+&lt;h1 id=&#34;এয-বত-অগ-রগত&#34;&gt;এযাবত অগ্রগতি&lt;/h1&gt;
+
+&lt;p&gt;প্রজেক্ট নিয়ে আশাতীত অগ্রগতি হয়েছে। ক্লিনিক্যাল টিম প্রায় চুড়ান্ত করা হয়েছে। আরো কয়েকজন অত্যন্ত আগ্রহী ক্লিনিসিয়ানদের জড়িত হওয়ার সুযোগ রয়েছে।&lt;/p&gt;
+
+&lt;p&gt;রিসার্চ এসিস্টেন্ট (Research Assistant) পজিশনে এ পর্যন্ত ভাল সাড়া পেয়েছি। যারা সিভি পাঠাতে চান তারা অতিসত্ত্বর পাঠিয়ে দেন এই ঠিকানায় &lt;code&gt;sorowar2002@gmail.com&lt;/code&gt;. আমরা তাড়াতাড়ি টিম ফাইনাল করে কাজে নেমে পড়তে চেষ্টা করছি। বেশী দেরী হলে এই প্রজেক্টের গুরুত্ব কমে যাবে।&lt;/p&gt;
+
+&lt;h1 id=&#34;ভ-ক-তভ-গ-র-অভ-জ-ঞত-ও-প-রত-য-শ&#34;&gt;ভুক্তভোগীর অভিজ্ঞতা ও প্রত্যাশা&lt;/h1&gt;
+
+&lt;p&gt;আমি নিজেই &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:-&#34;&gt;&lt;a href=&#34;#fn:-&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; চিকুনগুনিয়ার রোগী। প্রায় তিন সপ্তাহ হয়ে গেল এখনো নরমাল লাইফ লীড করতে পারছি না। ব্যথা মাঝে মাঝে ফিরে আসেে। হাঁটার সময় নিজেকে হালকা ফিল করি। ইকো-কার্ডিওগ্রাম করিয়েছিলাম। হার্ট নরমাল রয়েছে। আমার মেয়েরও হয়েছিল এবং ভাল হয়ে গিয়েছিল। কিন্তু তারও মাঝে মাঝে ব্যথা ফিরে আসছে। চিকুনগুনিয়া অন্য ধরনের অসুখ। এতে রোগী মারা যাওয়ার সম্ভাবনা না থাকার কারণে অনেকেই আমলে নিচ্ছেন না। আক্রান্ত রোগীর কোয়ালিটি অব লাইফসহ  প্রডাক্টিভিটি কমে যায়। অনেকের কাছে শুনেছি তারা প্রায় দু&amp;rsquo;মাস যাবত ভুগছেন। অনেকে হয়ত কয়েক বছর ব্যাপী ভুগবেন।&lt;/p&gt;
+
+&lt;p&gt;আমরা চাই আগামীবার দেশে চিকুনগুনিয়া কট্রোলে থাকুক। এ উদ্দেশ্যেই আমরা চিকুনগুনিয়া নিয়ে স্বেচ্ছাসেবামূলক রিসার্চ প্রজেক্ট প্রায় দাঁড় করিয়ে ফেলেছি। আপনারা রোগী হিসেবে আমাদের প্রজেক্টে স্টাডি জড়িত হয়ে বাংলাদেশকে সার্ভ করতে এগিয়ে আসুন। কিছুদিনের মধ্যে আমরা স্টাডির জন্য কেইস এনরোল শুরু করব। আপনারা পরিচিত সার্কেলে লিস্ট করতে থাকুন যাতে রিসার্চ প্রজেক্টে জড়িত হয়ে নিজেরা উপকৃত হতে পারেন।&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;আমাদের ক্লিনিসিয়ান টিম চিকুনগুনিয়া পরবর্তী অবস্থা ম্যানেজ করতে প্রায় ৬ মাস ব্যাপী ফ্রি পরামর্শ দিবেন। আমাদের চিকুনগুনিয়া রিসার্চ প্রজেক্টে চোখ রাখুন। আপনাদের সার্কেলে তা ছড়িয়ে দিন।&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;স-ট-ড-ত-অ-শ-ন-ন&#34;&gt;স্টাডিতে অংশ নিন&lt;/h1&gt;
+
+&lt;p&gt;দেশের স্বার্থে চিকুনগুনিয়া রিসার্চ প্রজেক্টের জন্য এগিয়ে আসুন।&lt;/p&gt;
+
+&lt;p&gt;আপনি এই বছর চিকেনগুনিয়ায় আক্রন্ত হয়ে থাকলে আমাদের স্টাডিতে অংশ গ্রহণের আহবান জানাচ্ছি। আমাদের গবেষকদের নির্ধারিত ক্রাইটেরিয়া পূরণ হলেই কেবল আপনাকে নেয়া হবে। পুরো গবেষণাটি রিসার্চ এথিক্স অনুসরণ করে পূর্বনির্ধারিত প্রটোকল অনুযায়ি পরিচালিত হবে। আপনার দেয়া ডেটা কেবলমাত্র গবেষণার কাজে ব্যবহৃত হবে এবং গবেষণার সাথে সরাসরি জড়িত ব্যক্তিরাই কেবল এই ডেটা নিয়ে কাজ করবে।&lt;/p&gt;
+
+&lt;p&gt;আপনি অংশ নিতে চাইলে এখন এই ফরমটি পুরণ করে আগ্রহ প্রকাশ করুন। শীঘ্রই আমরা আপনার সাথে যোগাযোগ করব।&lt;/p&gt;
+
+&lt;iframe src=&#34;https://docs.google.com/forms/d/e/1FAIpQLSe06Ax3wepaTWUuo5sA-pzD1WUu8687Ry1g_F2csAtOYCprxA/viewform?embedded=true&#34; width=&#34;600&#34; height=&#34;1100&#34; frameborder=&#34;0&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34;&gt;Loading...&lt;/iframe&gt;
+
+&lt;h1 id=&#34;আম-দ-র-স-থ-য-গ-য-গ&#34;&gt;আমাদের সাথে যোগাযোগ&lt;/h1&gt;
+
+&lt;p&gt;আমাদের ফেইসবুক &lt;a href=&#34;https://www.facebook.com/ChikungunyaResearch/&#34; target=&#34;_blank&#34;&gt;পেইজে&lt;/a&gt; লাইক দিয়ে আমাদের আপডেট পেতে পারেন।&lt;/p&gt;
+
+&lt;p&gt;এই ফরমটি পরিচিত কারো কাছে পাঠাতে চাইলে &lt;a href=&#34;https://goo.gl/forms/vkl9hVOiAJOhcwgA2&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;এই লিংকটি&lt;/em&gt;&lt;/a&gt; পাঠান। অথবা এই পোস্টটি শেয়ার করতে পারেন।&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:-&#34;&gt;ড. মোহাম্মদ সরোয়ার হোসেন &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:-&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thalassemia</title>
+      <link>/project/thalassemia/</link>
+      <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thalassemia/</guid>
+      <description>&lt;p&gt;Thalassemias are emerging as a global public health concern. Due to remarkable success in the reduction of childhood mortality by controlling infectious diseases in developing countries, thalassemias are likely to be a major public health concern in the coming decades in South Asia.&lt;/p&gt;
+
+&lt;p&gt;Despite the fact that Bangladesh lies in the world’s thalassemia belt, the information on different aspects (epidemiology, clinical course, mortality, complications and treatment outcomes) of thalassemias is lacking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thalassemias in South Asia: clinical lessons learnt from Bangladesh</title>
+      <link>/publication/thalassemia-south-asia/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/thalassemia-south-asia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preparing for statistics jobs in the industry</title>
+      <link>/post/preparing-for-statistics-jobs-in-the-industry/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/preparing-for-statistics-jobs-in-the-industry/</guid>
+      <description>&lt;p&gt;I would like to share a few things with you from recent experience of my transition from academia to industry. Of course I have a lot more experience than a fresh graduate, but something I’ve experienced that many others may benefit from. I believe this will help you to think at least. I’ve written this with the candidates in the US job market in mind.&lt;/p&gt;
+&lt;p&gt;Firstly, I would say this– lies, damn lies, statistics, AND one-page resume. I hope you got what I meant. One-page resume never worked for me. Here’s why.&lt;/p&gt;
+&lt;p&gt;Hiring managers rarely review your resume when you apply for a job. It normally goes through an initial round of review by recruiters. Organizations have partnered with recruiting companies and they do these initial screening. Literally, they will never forward any resume that is one-page. Because one-page resume rarely tells what you have accomplished. It’ll only make you look like hundred or thousand others candidates who have the exact same background and experience (R, SAS, courses, etc.) as you have.&lt;/p&gt;
+&lt;p&gt;You have to literally describe each of your projects and your contributions. You don’t have to describe every details. In fact you should not reveal every details but sufficient enough so that the recruiter understands it and convinced enough to forward your resume.&lt;/p&gt;
+&lt;p&gt;The hiring manager would then scan only your first page, perhaps. So prepare your resume as such.&lt;/p&gt;
+&lt;p&gt;Secondly, follow the jobs market closely and regularly. See what the market is looking for. That will put you into the real perspective because as a result of you being well informed, your resume will reflect that.&lt;/p&gt;
+&lt;p&gt;Thirdly, you need to submit your well detailed resume to several job sites such as CareerBuilder, Indeed, LinkedIn, Monster, Dice etc. I found CareerBuilder and Indeed to be better for stat (industry) jobs. LinkedIn is also good for finding local opportunities.&lt;/p&gt;
+&lt;p&gt;PLEASE spend a lot of time to properly submit your resume to these job sites with all possible keywords appropriate for your discipline. It will take about 2 to 3 weeks before the resume is propagated to various recruiters’ networks. Once recruiters find your resume, they will directly call you. Recruiters get a good amount of commission when they are able to forward a good candidate and the company hires the candidate. So they always try to help you. Often they will suggest you to modify your resume to make it suitable for that particular position.&lt;/p&gt;
+&lt;p&gt;Fourth, have patience. A lot of patience. You have to knock every possible door, and only some doors will open.&lt;/p&gt;
+&lt;p&gt;Fifth, prepare yourself for the interview. I find Liz Ryan (www.linkedin.com/in/lizryan) to be excellent. You will find her in LinkedIn. Follow her. It’s really really helpful. I wish I would have found her earlier.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statisticians in the Data Science Era</title>
+      <link>/talk/statisticians-data-science-era-isrt-dhaka/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      
+      <guid>/talk/statisticians-data-science-era-isrt-dhaka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>গবেষণা পদ্ধতি ও কোলাবরেটিভ কাজের ধারা</title>
+      <link>/post/collaborative-research-workflow/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/collaborative-research-workflow/</guid>
+      <description>
+
+&lt;p&gt;সবকিছুই এখন দ্রুত চলছে — প্রযুক্তির উন্নয়ন হচ্ছে দ্রুত, সামাজিক পরিবর্তন হচ্ছে অনেকটা চোখের সামনেই, বাড়ছে মানুষ, আর সেইসাথে বাড়ছে ডেটা!&lt;/p&gt;
+
+&lt;p&gt;সময়ের প্রয়োজনে গবেষণা এখন হয়ে উঠেছে কোলাবরেটিভ বা সহযোগিতামূলক। এতে সুবিধা অনেক। একসাথে অনেক ফিল্ডের এক্সপার্টরা কাজ করছে যার ফলে প্রোডাক্টিভিটি বেড়েছে। অর্থাৎ অল্প সময়ে দ্রুত প্রোডাক্ট (রিসার্চ পেপার) বের করা সম্ভব হচ্ছে। নব্বইয়ের দশক থেকে শুরু করে তার পরবর্তী সময়কালে কোলাবরেটিভ কাজের সুযোগ ও আগ্রহ দুইই বেড়েছে।&lt;/p&gt;
+
+&lt;p&gt;তরুণ গবেষকদের কোলাবরেটিভ কাজ শুরু করার প্রাথমিক ধাপ হলো রিসার্চ কীভাবে করে সে সম্পর্কে ধারণা থাকা। আমাদের দেশের বিশ্ববিদ্যালয়গুলোতে রিসার্চ মেথডলজি নামে একটি বিষয় পড়ানো হয়। গবেষণা পদ্ধতি জানতে এবং তার ব্যবহারিক রূপ দেখতে এই কোর্সের কোন বিকল্প নেই। কাজ করে করে কাজ শেখা যায় তবে সেটি আরো এফিসিয়েন্ট হয় যদি তাত্ত্বিক জ্ঞান অর্জন করা থাকে। যেটি সম্ভব হয় এরকম কোর্স করার মাধ্যমে।&lt;/p&gt;
+
+&lt;p&gt;প্রথাগত কোর্স করলেই যে সবাই সবকিছু শিখে নেবে এমনটি নয়। তবে কোন কিছু সম্পর্কে একেবারে অন্ধকারে থাকার চেয়ে কিছুটা জানা ভালো যদি সেই জানাকে পরবর্তীতে জ্ঞান আহরণের প্রাথমিক ধাপ হিসেবে বিবেচনা করা হয় এবং সেরকম প্রচেষ্টা থাকে।&lt;/p&gt;
+
+&lt;p&gt;দু:খজনক হলেও সত্যি যে আমাদের দেশে পড়াশুনা ও গবেষণার জন্য সত্যিকার কোন মোটিভেশন না থাকায় এই কোর্সটিও কাগুজে কোর্সে পরিণত হয়। এরকম কোর্স থেকে শিক্ষার্থীরা সামান্য কিছুই পেয়ে থাকে যেগুলোকে তারা পরবর্তীতে নিজেদের গবেষণায় কাজে লাগাতে পারে। এর কারণ বহুবিদ। অন্যতম কারণটি হলো শিক্ষার সাথে ব্যবহারিক কাজের কোনো সম্পর্ক না থাকা।&lt;/p&gt;
+
+&lt;p&gt;এই সমস্যার উত্তরণের একটি পথ আছে যেটি হলো গবেষণায় নেমে পড়া। বাংলাদেশের তরুণ শিক্ষার্থীরা অনেকেই গবেষণা করতে চায় কিন্তু কীভাবে করবে সেটি অনেক সময় খুঁজে পায়না। এর কারণ মুলত শিক্ষা প্রতিষ্ঠানগুলোতে গবেষণার পরিবেশ না থাকা কিংবা আনপ্রোডাক্টিভ খাতে সময়ের অপচয় করা। এছাড়া আগেই যেমনটা বলেছি– শিক্ষার্থীদের মোটিভেশনের অভাব আরেকটি বড় কারণ। অনেক সময় শিক্ষক গবেষণায় আগ্রহী কিন্তু শিক্ষার্থী সিস্টেমের ফাঁক ফোকর ব্যবহার করে দায়সারা কাজ করে পার পেয়ে যেতে চায়।&lt;/p&gt;
+
+&lt;h1 id=&#34;গব-ষণ-পদ-ধত&#34;&gt;গবেষণা পদ্ধতি&lt;/h1&gt;
+
+&lt;p&gt;এই লেখায় গবেষণার বিস্তারিত আলোচনা করবো না। গবেষণার পুরো বৃত্তান্তের স্টেপ বাই স্টেপ বর্ণনা করেছেন রাগিব হাসান তার &lt;a href=&#34;http://elochinta.com/gobeshona/&#34; target=&#34;_blank&#34;&gt;গবেষণায় হাতেখড়ি&lt;/a&gt; বইটিতে। আমি সেখানকার চুম্বক অংশ তুলে দিচ্ছি।&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;বইটা ভাগ করা হয়েছে কয়েকটি অংশে। প্রথমে আলোচনা করা হয়েছে গবেষণা কাকে বলে, এর প্রয়োজনীয়তা এবং মূলনীতি নিয়ে। এর পরে আস্তে আস্তে বলা হয়েছে, কীভাবে গবেষণা শুরু করবেন, বিষয় নির্বাচন ও লিটারেচার রিভিউ করবেন। তার পরে ধাপে ধাপে দেখানো হয়েছে, রিসার্চ পেপার পড়া, বোঝা, এবং নিজের গবেষণাপত্র কীভাবে লিখবেন। গবেষণার সমস্যা সমাধানের জন্য নতুন আইডিয়া কীভাবে চিন্তা করবেন ও যাচাই করবেন। এছাড়া গবেষণার ফলাফলকে প্রেজেন্টেশন বা বক্তৃতার মাধ্যমে উপস্থাপন করার নানা কৌশল সম্পর্কে লিখেছি। এবং সবশেষে আলোচনা করেছি গবেষণার অর্থায়ন কীভাবে করবেন, এবং গবেষণার সাথে আনুসঙ্গিক অনেক বিষয় যেমন গবেষকদের অভ্যাস, গবেষণার জন্য সময় জোগাড় করা, এসব কিছু।&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;আমি নতুন করে চাকা আবিষ্কার না করে বরং সংক্ষেপে ধাপগুলো তুলে ধরছি। এটি বিশেষ করে যারা আমার সাথে কাজ করতে চান তাদের জন্য অবশ্যপাঠ্য। তাছাড়া নিজেদের গবেষণাতেও এই ধাপগুলো অনুসরণ করা যাবে। হয়তো কাজের ধারা কিছুটা বদলাতে হতে পারে। সেটি নির্ভর করবে কী ধরনের গবেষণা হচ্ছে তার উপর।&lt;/p&gt;
+
+&lt;h1 id=&#34;সমস-য-ক-থ-য়-প-ব-ন&#34;&gt;সমস্যা কোথায় পাবেন?&lt;/h1&gt;
+
+&lt;p&gt;সমস্যা অনেক ভাবে পাওয়া যেতে পারে। যারা কোন বিষয়ের অভিজ্ঞ বা অথরিটি তারা খুব সহজেই একটা গবেষণা করার মতো সমস্যা বের করতে পারেন। কিন্তু নতুন গবেষকদের জন্য এটি অনেক কঠিন একটি বিষয়। তাই তাদের জন্য গবেষণা করার মতো সমস্যা খুঁজে পেতে সংশ্লিষ্ট বিষয়ের জার্নাল থেকে আর্টিকেল পড়ার পরামর্শ দিচ্ছি। এটি সবচেয়ে কম সময়ে ভালো একটি সমস্যা খুঁজে পাওয়ার সবচেয়ে সহজ উপায়। আর দ্বিতীয়টি হলো চোখ কান খোলা রাখা এবং নিজের চিন্তা ভাবনা থেকেই সম্ভাব্য সমস্যা বের করা।&lt;/p&gt;
+
+&lt;p&gt;মনে রাখতে হবে সব সমস্যাই গবেষণা করার মতো নয়। অনেক সময় দূরদর্শীতা এবং অভিজ্ঞতার অভাবে একটি কাজ শুরু করে সেটি নানা কারণে শেষ করা হয়ে ওঠে না। প্রথম দিকে তাই অভিজ্ঞ কারো সাথে কাজ করলে কাজটি ভালো ভালোয় শেষ করার সম্ভবনা বাড়ে।&lt;/p&gt;
+
+&lt;p&gt;গবেষণার সমস্যা খুঁজতে গিয়ে আপনি প্রথমেই ব্রড একটা সমস্যা নিয়ে চিন্তা করবেন। তার পর সেখান থেকে ছোট ছোট বা স্পেসিফিক একাধিক সমস্যা বের করুন। সেগুলোকে লিপিবদ্ধ করুন। তারপর সেখান থেকে একটি বা দুটি সমস্যাকে বাছাই করুন। একটি গবেষণায় একটি প্রধান সমস্যাকে লক্ষ্য করে এগুবার পরামর্শ দেবো। এতে করে গবেষণা সেই লক্ষ্যেই স্থির থাকে এবং সকল কর্মকান্ডও ওই লক্ষ্যকে ঘিরে হয় বলে গবেষণাটি ভালো মানের হওয়ার সম্ভবনা থাকে।&lt;/p&gt;
+
+&lt;p&gt;যেমন ধরুন আপনি বাংলাদেশের কলেজ ও বিশ্ববিদ্যালয়ের শিক্ষার্থীদের মধ্যে ক্যানসার সচেতনতা নিয়ে কাজ করবেন বলে স্থির করছেন । ক্যান্সারের অনেক ধরন আছে। এক্ষেত্রে ভালো হবে একটি মাত্র ক্যান্সার (ধরা যাক স্তন ক্যান্সার) নিয়ে কাজ করা। সেই সাথে টার্গেট পপুলেশনে কলেজ শিক্ষার্থীদের না অন্তুর্ভুক্ত করে শুধু বিশ্ববিদ্যালয়ের শিক্ষার্থীদের অন্তর্ভুক্ত করলে আপনার গবেষণাটি আরো ফোকাসড হবে।&lt;/p&gt;
+
+&lt;h1 id=&#34;গব-ষণ-র-লক-ষ-য-ও-উদ-দ-শ-য-ন-র-ধ-রণ-কর&#34;&gt;গবেষণার লক্ষ্য ও উদ্দেশ্য নির্ধারণ করা&lt;/h1&gt;
+
+&lt;p&gt;গবেষণার মূল লক্ষ্যই হলো কোন সমস্যাকে তুলে ধরা বা সেটির সমাধানের পথে কী কী করা যায় সে সম্পর্কে রেকমেন্ডেশন দেয়া। সেজন্য গবেষণার মাধ্যমে যে যে প্রশ্নের উত্তর জানা প্রয়োজন সেগুলোকে লিপিবদ্ধ করা দরকার। এতে করে গবেষণাটি সিস্টেমেটিক হবে এবং গবেষণার শেষে লক্ষ্য ও উদ্দেশ্য পূরণ হলো কী না সেটিও পরিমাপ করা যাবে।&lt;/p&gt;
+
+&lt;p&gt;এজন্য গবেষণার প্রশ্ন বা Research Questions (RQs) গুলোকে লিখে রাখতে হবে। অনেকগুলো প্রশ্ন একসাথে লেখা যেতে পারে তবে কয়েকটি স্পেসিফিক প্রশ্নের উত্তর গবেষণায় খোঁজা হবে। এই প্রশ্নগুলোকেই একে একে উত্তর দেয়া হবে কনক্লুসন বা ডিসকাসন সেকশনে।&lt;/p&gt;
+
+&lt;h1 id=&#34;ল-ট-র-চ-র-র-ভ-উ&#34;&gt;লিটারেচার রিভিউ&lt;/h1&gt;
+
+&lt;p&gt;সমস্যা বের করার পর আপনাকে দেখাতে হবে আপনার গবেষণাটি কেন দরকার। অর্থাৎ আপনাকে বোঝাতে হবে আপনার কাজের মোটিভেশন কী? সেজন্য এই সমস্যার উপর ইতোপূর্বে কে কী করেছে এবং তাদের কাজগুলোকে আপনার রিভিউ করতে হবে। লিটারেচার রিভিউ লেখা সহজ নয়। মানে এটিকে খুব সহজ ভাবে নেয়া উচিত নয়। লিটারেচার রিভিউ কেবলমাত্র পূর্বে সম্পাদিত কাজের তালিকা নয় বরং সেই কাজগুলো কীভাবে একটির সাথে আরেকটি সম্পর্কযুক্ত সেটি বুঝে আপনাকে পাঠকউপযোগী করে উপস্থাপন করতে হবে। এরকম উপস্থাপনার উদ্দেশ্য হলো আপনার গবেষণার কনটেক্সট বা প্রাসঙ্গিকতা তৈরী করা। আপনার রিভিউ পড়ে যেন সবাই বুঝতে পারে আপনার অবদান কতটুকু এবং কীভাবে।&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Your work must be put into proper context and argued what you’ve done and why…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;খুব ভালো মানে কাজও কিন্তু ভাল লিটারেচার রিভিউ না থাকার কারণে রিভিউয়াররা বাতিল করে দিতে পারে। এক্ষেত্রে আপনাকেই কাজের নতুনত্ব ও অবদান লেখার মাধ্যমে তুলে ধরতে হবে।&lt;/p&gt;
+
+&lt;h1 id=&#34;ম-থড-অব-এন-ল-স-স-ব-ম-থডলজ&#34;&gt;মেথড অব এনালিসিস বা মেথডলজি&lt;/h1&gt;
+
+&lt;p&gt;এই অংশে মূলত পরিসংখ্যানিক এনালিসিস করা হয়। একজন গবেষক নানা ভাবে তার গবেষণা করতে পারেন। তবে এপিডেমিওলজিকাল এবং সামাজিক-বিজ্ঞানের গবেষণাগুলোকে মোটা দাগে তিনভাগে ভাগ করা যায়।&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ক্রস-সেকসনাল স্টাডি (Cross-sectional study)&lt;/li&gt;
+&lt;li&gt;অবজারভেশনাল স্টাডি (Observational study)&lt;/li&gt;
+&lt;li&gt;এক্সপেরিমেন্টাল স্টাডি (Experimental study)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ক্রস-সেকসনাল স্টাডি পরিচালনা করা হয় একটি পপুলেশনের বৈশিষ্ট্যগুলোর স্ন্যাপশট দেখার জন্য। যেকোন সময়েই এরকম স্টাডি করা যায়। লক্ষ্য রাখতে হবে সময়টি যেন এমন না হয় যে এটি গবেষণার প্রশ্নের সাথে সম্পর্কযুক্ত। ধরুন আপনি জানতে চাইছেন ঢাকা শহরে প্রতিদিন কত সংখ্যক মানুষ বাইরের জেলাগুলো থেকে আসে। সেজন্য আপনাকে একটি টিপিক্যাল দিন বাছাই করতে হবে যেটার সাথে ঢাকা শহরে মানুষ আসার বিশেষ কোন সম্পর্ক না থাকে। যেমন ইজতেমার মওশুমে অনেক মানুষ ঢাকায় আসে। আপনি যদি সেরকম কোন একটি সময়ে গবেষণার জন্য উপাত্ত সংগ্রহ করেন তাহলে আপনি প্রকৃত চিত্র পাবেন না। এক্ষেত্রে আপনার গবেষণার ফল বায়াসড হবে।&lt;/p&gt;
+
+&lt;p&gt;অবজারভেশনাল স্টাডিতে আপনি শুধু অবজার্ভ করবেন বা দেখবেন। সেটি হতে পারে স্টাডি শুরু থেকে ভবিষ্যতের দিকে আপনার স্টাডি সাবজেক্টকে ফলো করা। আবার হতে পারে স্টাডি শুরুর সময় থেকে পিছনের দিকে অরজার্ভ করা। উদাহরণস্বরূপ আপনি দেখতে চাইছেন নেশাদ্রব্য গ্রহণের সাথে স্ট্রোকের সম্পর্ক আছে কিনা বা নেশাদ্রব্য গ্রহণ স্ট্রোকের সম্ভাবনা বাড়িয়ে দেয় কিনা। এজন্য আপনি টার্গেট পপুলেশনের একটি অংশকে আজ থেকে ফলো করা (অবজার্ভ) করা শুরু করলেন এবং আগামী ৫ বছর তাদের অবজার্ভ করবেন। ৫ বছর শেষে আপনি দেখবেন এদের মধ্যে যাদের স্ট্রোক হয়েছে তাদের কেউ কেউ নেশাকারী এবং কেউ কেউ নয়। এভাবে স্টাডি করে দেখা যাবে নেশাদ্রব্য গ্রহণের সাথে স্ট্রোকের এসোসিয়েসন আছে কিনা। এ ধরনের স্টাডিকে বলে প্রসপেকটিভ স্টাডি।&lt;/p&gt;
+
+&lt;p&gt;আবার অন্য ধরনের অবজারভেশনাল স্টাডিতে প্রথমেই তাদেরকে বেছে নেয়া যাদের স্ট্রোক হয়েছে। অর্থাৎ ইভেন্ট যাদের মধ্যে ঘটেছে তাদের বাছাই করে তাদের ইন্টারভিউয়ের মাধ্যমে জানা যে তারা অতীতে কোন নেশাদ্রব্য নিয়মিত গ্রহণ করতো কিনা। এধরনের স্টাডিকে বলে রেট্রোস্পেক্টিভ স্টাডি যা বর্তমানের ইভেন্ট দেখে অতীতকে পর্যবেক্ষণ করা যে ইভেন্টটি ঘটার সাথে অতীতের কার্যকলাপের (নেশাদ্রব্য গ্রহণ) এসোসিয়েশন আছে কিনা।&lt;/p&gt;
+
+&lt;p&gt;অবজারভেশনাল স্টাডিতে শুধুই অবজার্ভ করা হয়, কোন ইন্টারভেনশন দেয়া হয়না।&lt;/p&gt;
+
+&lt;p&gt;এক্সপেরিমেন্টাল স্টাডি অনেকটা ফলোআপ বা প্রসপেক্টিভ অবজারভেশনাল স্টাডির মতো। এখানে মূল পার্থক্য হলো এ ধরনের গবেষণায় নতুন ইন্টারভেনশন দেয়া হয় এটা দেখতে যে ইন্টারভেনশনটির কোন এফেক্ট আছে কিনা। ধরা যাক স্ট্রোক কমাতে নতুন একটি ড্রাগ বা লাইফস্টাইলের এফেক্ট আপনি যাচাই করতে চাইছেন। এক্ষেত্রে আপনি দৈব চয়নের মাধ্যমে আপনার গবেষণায় অংশগ্রহণকারিদের একটি অংশকে এই নতুন ড্রাগ বা লাইফস্টাইল দিবেন আর অন্য অংশকে প্লাসিবো দিবেন। &lt;a href=&#34;https://en.wikipedia.org/wiki/Placebo&#34; target=&#34;_blank&#34;&gt;প্লাসিবো&lt;/a&gt; হলো ঔষধের মতো যেটির আসলে কোন ঔষধি গুন নেই। বিস্তারিত জানতে উইকিতে দেখুন।&lt;/p&gt;
+
+&lt;h1 id=&#34;এন-ল-স-স&#34;&gt;এনালিসিস&lt;/h1&gt;
+
+&lt;p&gt;এই ধাপে স্ট্যাটিসটিক্যাল এনালিসিস করা হবে। ডেটা সংগ্রহের পর সেটিকে ক্লিন করে সামারি রেজাল্ট এবং পরিসংখ্যানের মডেল (যদি দরকার হয়) ব্যবহার করে সিদ্ধান্ত গ্রহণ করা হবে। গবেষণার জন্য নেয়া নমুনা যদি জনগোষ্ঠীর প্রতিনিধিত্বমূলক হয় তাহলে গবেষণার ফলকে সেই টার্গেট পপুলেশনের উপর জেনারেলাইজ করা যাবে অর্থাৎ গবেষণার ফলটি ওই জনগোষ্ঠীর জন্য প্রযোজ্য এমনটি বলা যাবে।&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;আর যদি প্রতিনিধিত্বমূলক নমুনা না হয়ে থাকে তাহলে গবেষণার ফলাফল কেবল ওই গবেষণায় অংশগ্রহণকারিদের জন্যই প্রযোজ্য হবে। কোনভাবেই সেটি মূল জনগোষ্ঠীর জন্য সত্যি এমনটি বলা যাবে না। গবেষণার ফল প্রকাশের সময় এই ব্যাপারটি  তাই খুব সতর্কতার সাথে লিখতে হবে যাতে কোন ভুল বোঝাবুঝি না নয়। অনেক সময় সংবাদপত্রে গবেষণার ফলকে পুরো জনগোষ্ঠীর ফল হিসেবে দেখিয়ে খবর প্রকাশিত হয় যা সত্যের অপলাপ মাত্র।&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;ড-সক-শন&#34;&gt;ডিসকাশন&lt;/h1&gt;
+
+&lt;p&gt;কোন গবেষণার এটি হলো সার অংশ। ব্যবহারকারিরা এবং যারা পলিসি তৈরি করেন তাদের কাছে এই সেকশনটি গুরুত্বপূর্ণ। তারা এটিই পড়বেন এবং সে মোতাবেক সিদ্ধান্ত গ্রহণ বা পরিবর্তন করবেন যাতে জনগোষ্ঠীতে পরিবর্তন আসে।&lt;/p&gt;
+
+&lt;p&gt;এজন্য এই অংশটি খুব সতর্কতার সাথে এবং অল্পকথায় লিখতে পারলে ভালো। এই অংশে গবেষণার প্রাপ্ত ফলগুলোকে প্রেজেন্ট করা হয় এবং তা পূর্ববর্তী গবেষণার ফলের সাথে তুলনা করে দেখানো হয়। শুধু নিজের গবেষণার ফল আলোচনা করলেই হবে না, একই ধরনের অন্য গবেষণার ফলের সাথে আপনার গবেষণার ফলের তুলনামুলক আলোচনা করতে হবে। এই অংশে গবেষণার উদ্দেশ্য এবং RQ গুলোকে পুনর্ব্যক্ত করে দেখাতে হয় আপনি গবেষণা শুরুর আগে যা জানতে চেয়েছিলেন সেগুলোর উত্তর পেয়েছেন কী না।&lt;/p&gt;
+
+&lt;p&gt;এই অংশটি আপনার গবেষণাকে পুনরায় জাস্টিফাই করবে। সেটি সম্ভব হবে ভালো করে সেকশনটি উপস্থাপন করার মাধ্যমে। এরকম উপস্থাপনা করতে পারা সহজ নয়। অভিজ্ঞতার মাধ্যমে এটি অর্জন করা যায়। শেখার জন্য ভালো জার্নালের আর্টিকেল থেকে আপনার গবেষণার সাথে মিল আছে সেরকম আর্টিকেলের ডিসকাশন সেকশন পড়ার পরামর্শ দিব। পড়ার মাধ্যমে জানা হবে আর সেটি নিজের গবেষণাপত্রে লেখার মাধ্যমে চর্চা হবে।&lt;/p&gt;
+
+&lt;h1 id=&#34;কনক-ল-শন-ব-উপস-হ-র&#34;&gt;কনক্লুশন বা উপসংহার&lt;/h1&gt;
+
+&lt;p&gt;পরিশেষে উপসংহারে আপনি আপনার গবেষণার ফলাফল সংক্ষেপে আবারো লিখবেন। অনেক জার্নালে কনক্লুশন এবং ডিসকাশন সেকশন দুটি একত্রে লেখা হয়। সেক্ষেত্রে উপসংহারটিকে আপনার ডিসকাশন সেকশনের শেষ প্যারা হিসেবে লিখতে পারেন। এই সেকশনে পলিসি রেকমেন্ডেশন দিতে পারেন। সেই সাথে আপনার কাজের সীমাবদ্ধতাগুলোও তুলে ধরতে পারেন। সবশেষে ভবিষ্যতে আরও কী কী করা যেতে পারে সেগুলোর একটি আউটলাইন দেয়া যেতে পারে। এ থেকে বোঝা যাবে এই গবেষণায় আপনার অবদান কতটুকু এবং আরও কী কী কাজের সুযোগ আছে যা আপনি কিংবা আগ্রহী গবেষকগণ চিন্তা করতে পারেন।&lt;/p&gt;
+
+&lt;h1 id=&#34;ক-জ-র-ধ-র&#34;&gt;কাজের ধারা&lt;/h1&gt;
+
+&lt;p&gt;অনেকেই অনেক ভাবে কাজ করতে পারে তবে আমি আমার মতো করে একটি ওয়ার্কফ্লো দিচ্ছি। আমি প্রথম এবং শেষ থেকে শুরু করে আস্তে আস্তে ভিতরের দিকে কাজ করি। লক্ষ্য, উদ্দেশ্য ও লিটারেচার রিভিউ নিয়ে যুগপদ কাজ করি। লক্ষ্য ও উদ্দেশ্য লেখা হয়ে গেলে এবং রিটারেচার রিভিউ শেষ হলে RQ গুলো কী ভাবে উত্তর করবো সে লক্ষ্যে ডিসকাশন সেকশনে কাজ করি। ডিসকাশন পুরো লেখা হয়না কিন্তু টেমপ্লেট তৈরী করা হয় যেখানে এনালিসিস (ধাপ ৪) থেকে প্রাপ্ত তথ্যগুলো দিয়ে পরবর্তীতে সম্পূর্ণ করা হয়।&lt;/p&gt;
+
+&lt;p&gt;তবে এই ওয়ার্কফ্লো নির্ভর করে কী ধরনের গবেষণা হচ্ছে তার উপর। সাধারণত ধাপগুলো এরকম হতে পারে&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;সমস্যা &amp;gt; প্রশ্ন &amp;gt; লিটারেচার রিভিউ &amp;gt; ডিসকাশন টেমপ্লেট &amp;gt; এনালিসিস + মেথডলজি &amp;gt; ডিসকাশন &amp;gt; উপসংহার&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;কিংবা হতে পারে&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;সমস্যা &amp;gt; প্রশ্ন &amp;gt; লিটারেচার রিভিউ &amp;gt; মেথডলজি&amp;gt; ডিসকাশন টেমপ্লেট + এনালিসিস &amp;gt; ডিসকাশন &amp;gt; উপসংহার&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;শ-ষ-কথ&#34;&gt;শেষ কথা&lt;/h1&gt;
+
+&lt;p&gt;আশা করি লেখাটি পড়ে আপনার গবেষণা পদ্ধতি সম্পর্কে একটি রিভিউ হলো। আপনি কোন পদ্ধতি অনুসরণ করে সেটি মন্তব্যে জানালে খুশি হবো। সেই সাথে কোন পরামর্শ যদি থাকে সেটাও জানাতে পারেন।।&lt;/p&gt;
+
+&lt;p&gt;পড়ার জন্য ধন্যবাদ।&lt;/p&gt;
+
+&lt;p&gt;কোলাবরেশন চলুক!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

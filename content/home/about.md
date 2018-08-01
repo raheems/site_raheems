@@ -33,6 +33,6 @@ weight = 1
  
 +++
 
-I am a statistician with more than 17 years of experience in academia and industry combined. Currently, as a healthcare data scientist, I provide strategic guidance for the development, validation, and use of algorithms for data based decision making.
+I am a Data Scientist and Statistician with more than 17 years of experience in academia and industry combined. Currently, as a healthcare data scientist, I provide strategic guidance for the development, validation, and use of algorithms for data based decision making.
 
 I have advanced level of proficiency with [R](http://www.r-project.org), and working knowledge with [Python](http://www.python.org). I use SAS for management of structured relational data (e.g., from data warehouse) and for standard statistical analysis.

@@ -1,6 +1,6 @@
 ---
 title: Frequently used git commands
-author: 'Enayetur Raheem'
+author: ['Enayetur Raheem']
 date: '2018-07-26'
 lastmod: '2018-07-30'
 slug: frequently-used-git-commands

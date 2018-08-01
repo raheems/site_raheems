@@ -11,7 +11,7 @@ tags:
   - R
 draft: false
 highlight: true
-thumbnail: "r_with_powerbi.png"
+thumbnail: "r_with_powerbi.jpg"
 ---
 
 *Microsoft Power BI* Desktop version nicely integrates with **R**. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. *Power BI* is Microsoft's flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for *Power BI Desktop*, you can do many cool things, which can be broadly categorized into three broad applications--

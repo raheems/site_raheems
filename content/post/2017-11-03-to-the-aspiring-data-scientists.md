@@ -5,6 +5,7 @@ date: '2017-11-03'
 slug: to-the-aspiring-data-scientists
 categories: [Career]
 tags: [Data Science]
+description: "Simple guide for aspiring statisticians who wants to work in data science."
 toc: true
 ---
 

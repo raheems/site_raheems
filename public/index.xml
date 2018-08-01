@@ -69,9 +69,9 @@ df &amp;lt;- data.frame(
 head(df)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This code creates an R &lt;code&gt;data.frame&lt;/code&gt; and saves in an object &lt;code&gt;df&lt;/code&gt;. This will be the name of the data when you import in Power BI. You can give it any name you want.&lt;/p&gt;
+&lt;p&gt;This code creates an R &lt;code&gt;data.frame&lt;/code&gt; and saves in an object &lt;code&gt;df&lt;/code&gt;. This will be the name of the data when you import into Power BI. You can give the data object any valid R-name you want.&lt;/p&gt;
 
-&lt;p&gt;The above code also shows &lt;code&gt;head(df)&lt;/code&gt;, but Power BI only imports data in a &lt;code&gt;data.frame&lt;/code&gt; format. So you don&amp;rsquo;t have to worry about other codes that you write in the script. Just make sure all codes run without error and without any dependencies.&lt;/p&gt;
+&lt;p&gt;The above code also shows &lt;code&gt;head(df)&lt;/code&gt;, but Power BI only imports &lt;code&gt;data.frame&lt;/code&gt;. In this case, it will only import the &lt;code&gt;df&lt;/code&gt; object and ignore the rest. So you don&amp;rsquo;t have to worry about other codes in the script. Just make sure all codes run without error and without any dependencies.&lt;/p&gt;
 
 &lt;h2 id=&#34;run-your-r-script-and-import-data&#34;&gt;Run your R script and import data&lt;/h2&gt;
 
@@ -107,10 +107,10 @@ Now that you&amp;rsquo;ve successfully imported the data using R script, you can
 
 &lt;p&gt;It is obvious that you would be updating the R script since that was the whole purpose of importing the data via R script. You continue to edit the script in RStudio and when you are ready to update the code within Power BI, you need to go to Edit Queries option.&lt;/p&gt;
 
-&lt;p&gt;Simply right-click on the data under the &lt;strong&gt;FIELDS&lt;/strong&gt; pane, and select &lt;em&gt;Edit query&lt;/em&gt;. This should open the Power Query Editor and you can click on the gean icon as shown below:&lt;/p&gt;
+&lt;p&gt;Simply right-click on the data under the &lt;strong&gt;FIELDS&lt;/strong&gt; pane, and select &lt;em&gt;Edit query&lt;/em&gt;. This should open the Power Query Editor and you can click on the gear icon ([1] in figure) as shown below:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/edit_r_script.png&#34; alt=&#34;Edit R script&#34; /&gt;
-Clicking that gear icon ([1] in figure) should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; ([2] in the figure) in the Power Query Editor to apply the changes.&lt;/p&gt;
+Clicking that gear icon should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; ([2] in the figure) in the Power Query Editor to apply the changes.&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;The next two sections will be updated shortly&amp;hellip;&lt;/p&gt;

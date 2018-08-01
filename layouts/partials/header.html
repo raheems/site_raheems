@@ -133,7 +133,7 @@
   <meta property="og:image" content="{{ printf "img/%s" . | absURL }}">
   {{end}}
   
-  {{- with .Params.header.image }}<meta property="og:image" content="{{ printf "img/%s" . | absURL }}">{{end}}
+  {{- with .Params.header.image }}<meta property="og:image" content="{{ printf "https://www.raheems.ca/img/%s" . | absURL }}">{{end}}
   
   <meta property="og:locale" content="{{ .Site.LanguageCode | default "en-us" }}">
   {{ if .IsPage }}

@@ -18,13 +18,15 @@
       <guid>/post/integrating-r-with-powerbi-desktop/</guid>
       <description>
 
-&lt;p&gt;&lt;em&gt;Microsoft Power BI&lt;/em&gt; Desktop version nicely integrates with &lt;strong&gt;R&lt;/strong&gt;. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. &lt;em&gt;Power BI&lt;/em&gt; is Microsoft&amp;rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for &lt;em&gt;Power BI Desktop&lt;/em&gt;, you can do many cool things, which can be broadly listed as&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Microsoft Power BI&lt;/em&gt; Desktop version nicely integrates with &lt;strong&gt;R&lt;/strong&gt;. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. &lt;em&gt;Power BI&lt;/em&gt; is Microsoft&amp;rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for &lt;em&gt;Power BI Desktop&lt;/em&gt;, you can do many cool things, which can be broadly categorized into three broad applications&amp;ndash;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;using R to import data into Power BI,&lt;/li&gt;
 &lt;li&gt;using R to query data existing within Power BI, and&lt;/li&gt;
 &lt;li&gt;running R scripts for creating visuals&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;In this article, I will demonstrate how to use R with Power BI to perform these applications.&lt;/p&gt;
 
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
@@ -42,8 +44,6 @@
 &lt;/ul&gt;
 &lt;/nav&gt;
 
-
-&lt;p&gt;In this article, I will demonstrate all of the above three usage of R with Power BI.&lt;/p&gt;
 
 &lt;h1 id=&#34;using-r-to-import-data-sets-into-power-bi&#34;&gt;Using R to import data sets into Power BI&lt;/h1&gt;
 

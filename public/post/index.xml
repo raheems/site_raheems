@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Enayetur Raheem</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Enayetur Raheem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrating R with Power BI</title>
+      <link>/post/integrating-r-with-powerbi-desktop/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/integrating-r-with-powerbi-desktop/</guid>
+      <description>Microsoft Power BI Desktop version nicely integrates with R. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. Power BI is Microsoft&amp;rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for Power BI Desktop, you can do many cool things, which can be broadly categorized into three broad applications&amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>Frequently used git commands</title>
+      <link>/post/frequently-used-git-commands/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/frequently-used-git-commands/</guid>
+      <description>Thinking of using github? Great!
+Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. &amp;ldquo;GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.&amp;rdquo;1 Table of Contents  Copying a remote repository to local Publishing the changes Syncing a remote repository on two local hosts   Copying a remote repository to local To bring a remote repository to your local host (computer where you are working), use the git clone command.</description>
+    </item>
+    
+    <item>
+      <title>Python using RStudio IDE</title>
+      <link>/post/python-using-rstudio-ide/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/python-using-rstudio-ide/</guid>
+      <description>This is test post to check if Python code works. This is test.
+library(reticulate) import numpy as np x = [1, 2, 3] print(x) ## [1, 2, 3] y = np.mean(x) \(\bar{x}\) is the average, which is defined as \[ \bar{x} = \frac{\sum x}{n} \]
+So what is the aveage of y? It is 2.
+x = c(1:5) The value of x is R session is 1, 2, 3, 4, 5.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Tue, 20 Feb 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>To the Aspiring Data Scientists</title>
+      <link>/post/to-the-aspiring-data-scientists/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/to-the-aspiring-data-scientists/</guid>
+      <description>A lot of times interested folks contact me with a question like this: ‘I want to be a data scientist; can you help?’
+Well, I wish I could. The reality is, I won’t be able to unless I really understand what you want and why you want it.
+Firstly because guiding someone is next to impossible in this time and era when everything is so convoluted. People come to learn with preconceived ideas and notions.</description>
+    </item>
+    
+    <item>
+      <title>Statisticians in the Data Science Era</title>
+      <link>/post/statisticians-in-the-data-science-era/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/statisticians-in-the-data-science-era/</guid>
+      <description>If you are exploring the hot field of Data Science today, you probably know by now that there is no unique way to define data science. Everyone’s perspective comes from their respective backgrounds. Statisticians think they are data scientists while CS folks think they are.
+I would not go into the debate.
+Both have truth in their arguments as the typical problems they solve are quite different. There are some exceptions where their workflows overlap.</description>
+    </item>
+    
+    <item>
+      <title>চিকুনগুনিয়া রিসার্চ স্টাডিতে অংশগ্রহণ</title>
+      <link>/post/chikungunya-research-study-bangladesh/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/chikungunya-research-study-bangladesh/</guid>
+      <description>আপনার অথবা নিকটজনের চিকুনগুনিয়া হয়ে থাকলে আমাদের স্টাডিতে অংশ নিতে আহবান জানাচ্ছি। এখন শুধু আগ্রহীদের তালিকা করছি। পরবর্তীতে রিসার্চ প্রটোকল অনুযায়ি নির্বাচিত হলে আপনার সাথে যোগাযোগ করা হবে। সার্ভে ফরমটি এই পাতার নীচে দেয়া আছে।
+বাংলাদেশে সম্প্রতি চিকুনগুনিয়া (Chikungunya) রোগের প্রাদুর্ভাব দেখা দিয়েছে। এটি ডেঙ্গি (Dengue) রোগের মতো একই রকম লক্ষণ প্রকাশ করলেও আক্রান্ত রোগীর উপর এর প্রভাব আলাদা এবং ক্ষেত্রেবিশেষে ভয়াবহ।
+বায়োমেডিক্যাল রিসার্চ ফাউন্ডেশন বাংলাদেশ চিকুনগুনিয়ায় আক্রান্ত রোগীদের উপর গবেষণার উদ্যোগ নিয়েছে। বেশ কয়েকটি লক্ষ্যকে সামনে নিয়ে একাধিক প্রকল্প তৈরীর কাজ চলছে। এতে অংশ নিচ্ছে দেশে এবং বিদেশে কর্মরত বাংলাদেশী ডাক্তার এবং পাবলিক হেলথ গবেষকবৃন্দ। এই উদ্যোগে আপনাদের অংশগ্রহণের আহবান জানাচ্ছি।</description>
+    </item>
+    
+    <item>
+      <title>Preparing for statistics jobs in the industry</title>
+      <link>/post/preparing-for-statistics-jobs-in-the-industry/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/preparing-for-statistics-jobs-in-the-industry/</guid>
+      <description>I would like to share a few things with you from recent experience of my transition from academia to industry. Of course I have a lot more experience than a fresh graduate, but something I’ve experienced that many others may benefit from. I believe this will help you to think at least. I’ve written this with the candidates in the US job market in mind.
+Firstly, I would say this– lies, damn lies, statistics, AND one-page resume.</description>
+    </item>
+    
+    <item>
+      <title>গবেষণা পদ্ধতি ও কোলাবরেটিভ কাজের ধারা</title>
+      <link>/post/collaborative-research-workflow/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/collaborative-research-workflow/</guid>
+      <description>সবকিছুই এখন দ্রুত চলছে — প্রযুক্তির উন্নয়ন হচ্ছে দ্রুত, সামাজিক পরিবর্তন হচ্ছে অনেকটা চোখের সামনেই, বাড়ছে মানুষ, আর সেইসাথে বাড়ছে ডেটা!
+সময়ের প্রয়োজনে গবেষণা এখন হয়ে উঠেছে কোলাবরেটিভ বা সহযোগিতামূলক। এতে সুবিধা অনেক। একসাথে অনেক ফিল্ডের এক্সপার্টরা কাজ করছে যার ফলে প্রোডাক্টিভিটি বেড়েছে। অর্থাৎ অল্প সময়ে দ্রুত প্রোডাক্ট (রিসার্চ পেপার) বের করা সম্ভব হচ্ছে। নব্বইয়ের দশক থেকে শুরু করে তার পরবর্তী সময়কালে কোলাবরেটিভ কাজের সুযোগ ও আগ্রহ দুইই বেড়েছে।</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
+
+Key features:
+ Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
+    </item>
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>/post/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cv/</guid>
+      <description>Enayetur Raheem, PhD Data Scientist (Neurosciences)
+Carolinas HealthCare System 720 E Morehead St.
+Charlotte, NC 28202, USA
+Employments    Years Institution     Jun 2016 ~ Data Scientist, Carolinas HealthCare System, Charlotte, NC, USA   Aug 2013 ~ May 2016 Assistant Professor of Applied Statistics, University of Northern Colorado, Greeley, CO, USA   Aug 2012 ~ May 2013 Assistant Professor of Statistics, University of Wisconsin-Green Bay, Green Bay, WI, USA   Jan 2010 ~ Aug 2012 Data Analyst, Windsor-Essex County Health Unit, Windsor, Ontario, Canada    Education  PhD in Statistics, 2012, University of Windsor, Windsor, Ontario, Canada Masters in Statistics, 2005, McMaster University, Hamilton, Ontario, Canada Masters in Applied Statistics, 2000, University of Dhaka, Bangladesh  Current Projects Chickungunya The following is from Wikipedia 1.</description>
+    </item>
+    
+  </channel>
+</rss>

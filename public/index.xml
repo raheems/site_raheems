@@ -79,31 +79,27 @@ head(df)
 
 &lt;p&gt;&lt;img src=&#34;/img/get_data_R_script.png&#34; alt=&#34;Get Data using R script&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/r_script_interface_powerbi.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Notice that at the bottom of the above image, the your R installation path is displayed. If you have multiple installation of R, then you would need to go to &lt;strong&gt;Options and Settings &amp;gt; Options &amp;gt; R scripting&lt;/strong&gt; and then setting the location of the R installation you would like to use.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/r_script_interface_powerbi.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;
+Notice that at the bottom of the above image, the your R installation path is displayed. If you have multiple installation of R, then you would need to go to &lt;strong&gt;Options and Settings &amp;gt; Options &amp;gt; R scripting&lt;/strong&gt; and then setting the location of the R installation you would like to use.&lt;/p&gt;
 
 &lt;h2 id=&#34;error-message&#34;&gt;Error message&lt;/h2&gt;
 
 &lt;p&gt;After you enter the R script and hit OK, you might see a connection error message as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/unable_to_connect_r_script.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/unable_to_connect_r_script.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;
+In that case, you need to click on &lt;em&gt;Retry&lt;/em&gt; and that will take to you the following message to enable native database query. Click on Run. If you want to know more about risk involved with this option please see the &lt;a href=&#34;https://support.office.com/en-us/article/import-data-from-database-using-native-database-query-power-query-f4f448ac-70d5-445b-a6ba-302db47a1b00?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US&#34; target=&#34;_blank&#34;&gt;official documentation&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;In that case, you need to click on &lt;em&gt;Retry&lt;/em&gt; and that will take to you the following message to enable native database query. Click on Run. If you want to know more about risk involved with this option please see the &lt;a href=&#34;https://support.office.com/en-us/article/import-data-from-database-using-native-database-query-power-query-f4f448ac-70d5-445b-a6ba-302db47a1b00?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US&#34; target=&#34;_blank&#34;&gt;official documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/enable_native_data_base_query_r_script.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After that, it should run without any issue and you should see a window like the following:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/enable_native_data_base_query_r_script.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;
+After that, it should run without any issue and you should see a window like the following:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;/img/r_script_navigator_screen.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;loading-the-data&#34;&gt;Loading the data&lt;/h2&gt;
 
-&lt;p&gt;Once you are this stage, you select the data frame created with the R script (in this case &lt;code&gt;df&lt;/code&gt;), and then click Load (or Edit if you want). This should load the data in Power BI. You can verify that in the Fields pane that the &lt;code&gt;df&lt;/code&gt; has indeeded loaded as shown in the folowing:&lt;/p&gt;
+&lt;p&gt;Once you are at this stage, you select the data frame created with the R script (in this case &lt;code&gt;df&lt;/code&gt;), and then click Load (or Edit if you want). This should load the data in Power BI. You can verify that in the Fields pane that the &lt;code&gt;df&lt;/code&gt; has indeeded loaded as shown in the folowing:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/r_script_fields_pane.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that you&amp;rsquo;ve successfully imported the data using R script, you can use the variables the typical way you would work within Power BI Desktop. If you want to add or edit any new column/variables or anything with the data using the R script, you would need to update the R script and load the data as usual.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/r_script_fields_pane.png&#34; alt=&#34;R script interface in Power BI&#34; /&gt;
+Now that you&amp;rsquo;ve successfully imported the data using R script, you can use the variables the typical way you would work within Power BI Desktop. If you want to add or edit any new column/variables or anything with the data using the R script, you would need to update the R script and load the data as usual.&lt;/p&gt;
 
 &lt;p&gt;When you edit the R script, you should not see any error/warning messages because you&amp;rsquo;ve already made those exceptions.&lt;/p&gt;
 
@@ -113,9 +109,8 @@ head(df)
 
 &lt;p&gt;Simply right-click on the data under the &lt;strong&gt;FIELDS&lt;/strong&gt; pane, and select &lt;em&gt;Edit query&lt;/em&gt;. This should open the Power Query Editor and you can click on the gean icon as shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/edit_r_script.png&#34; alt=&#34;Edit R script&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Clicking that gear icon ([1] in figure) should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; ([2] in the figure) in the Power Query Editor to apply the changes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/edit_r_script.png&#34; alt=&#34;Edit R script&#34; /&gt;
+Clicking that gear icon ([1] in figure) should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; ([2] in the figure) in the Power Query Editor to apply the changes.&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;The next two sections will be updated shortly&amp;hellip;&lt;/p&gt;
@@ -126,8 +121,6 @@ head(df)
 &lt;h1 id=&#34;using-r-to-query-data-sets-within-power-bi-and&#34;&gt;Using R to query data sets within Power BI, and&lt;/h1&gt;
 
 &lt;h1 id=&#34;running-r-scripts-for-creating-visuals&#34;&gt;Running R scripts for creating visuals&lt;/h1&gt;
-
-&lt;p&gt;```&lt;/p&gt;
 </description>
     </item>
     

@@ -60,7 +60,6 @@ In Power BI Desktop, the R Script data connector is found in Get Data menu. Clic
 ![Get Data using R script](/img/get_data_R_script.png)
 
 ![R script interface in Power BI](/img/r_script_interface_powerbi.png)
-
 Notice that at the bottom of the above image, the your R installation path is displayed. If you have multiple installation of R, then you would need to go to **Options and Settings > Options > R scripting** and then setting the location of the R installation you would like to use.
 
 ## Error message 
@@ -68,21 +67,17 @@ Notice that at the bottom of the above image, the your R installation path is di
 After you enter the R script and hit OK, you might see a connection error message as follows:
 
 ![R script interface in Power BI](/img/unable_to_connect_r_script.png)
-
 In that case, you need to click on *Retry* and that will take to you the following message to enable native database query. Click on Run. If you want to know more about risk involved with this option please see the [official documentation](https://support.office.com/en-us/article/import-data-from-database-using-native-database-query-power-query-f4f448ac-70d5-445b-a6ba-302db47a1b00?ui=en-US&rs=en-US&ad=US)
 
 ![R script interface in Power BI](/img/enable_native_data_base_query_r_script.png)
-
 After that, it should run without any issue and you should see a window like the following:
 
 ![R script interface in Power BI](/img/r_script_navigator_screen.png)
-
 ## Loading the data
 
-Once you are this stage, you select the data frame created with the R script (in this case `df`), and then click Load (or Edit if you want). This should load the data in Power BI. You can verify that in the Fields pane that the `df` has indeeded loaded as shown in the folowing:
+Once you are at this stage, you select the data frame created with the R script (in this case `df`), and then click Load (or Edit if you want). This should load the data in Power BI. You can verify that in the Fields pane that the `df` has indeeded loaded as shown in the folowing:
 
 ![R script interface in Power BI](/img/r_script_fields_pane.png)
-
 Now that you've successfully imported the data using R script, you can use the variables the typical way you would work within Power BI Desktop. If you want to add or edit any new column/variables or anything with the data using the R script, you would need to update the R script and load the data as usual. 
 
 When you edit the R script, you should not see any error/warning messages because you've already made those exceptions. 
@@ -94,20 +89,14 @@ It is obvious that you would be updating the R script since that was the whole p
 Simply right-click on the data under the **FIELDS** pane, and select *Edit query*. This should open the Power Query Editor and you can click on the gean icon as shown below:
 
 ![Edit R script](/img/edit_r_script.png)
-
 Clicking that gear icon ([1] in figure) should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click **Close \& Apply** ([2] in the figure) in the Power Query Editor to apply the changes.
-
 
 {{% alert note %}}
 The next two sections will be updated shortly...
 {{% /alert %}}
 
 
-
 # Using R to query data sets within Power BI, and 
 
 # Running R scripts for creating visuals 
-
-
-```
 

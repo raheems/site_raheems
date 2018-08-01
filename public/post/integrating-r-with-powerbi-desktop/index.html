@@ -380,31 +380,27 @@ head(df)
 
 <p><img src="/img/get_data_R_script.png" alt="Get Data using R script" /></p>
 
-<p><img src="/img/r_script_interface_powerbi.png" alt="R script interface in Power BI" /></p>
-
-<p>Notice that at the bottom of the above image, the your R installation path is displayed. If you have multiple installation of R, then you would need to go to <strong>Options and Settings &gt; Options &gt; R scripting</strong> and then setting the location of the R installation you would like to use.</p>
+<p><img src="/img/r_script_interface_powerbi.png" alt="R script interface in Power BI" />
+Notice that at the bottom of the above image, the your R installation path is displayed. If you have multiple installation of R, then you would need to go to <strong>Options and Settings &gt; Options &gt; R scripting</strong> and then setting the location of the R installation you would like to use.</p>
 
 <h2 id="error-message">Error message</h2>
 
 <p>After you enter the R script and hit OK, you might see a connection error message as follows:</p>
 
-<p><img src="/img/unable_to_connect_r_script.png" alt="R script interface in Power BI" /></p>
+<p><img src="/img/unable_to_connect_r_script.png" alt="R script interface in Power BI" />
+In that case, you need to click on <em>Retry</em> and that will take to you the following message to enable native database query. Click on Run. If you want to know more about risk involved with this option please see the <a href="https://support.office.com/en-us/article/import-data-from-database-using-native-database-query-power-query-f4f448ac-70d5-445b-a6ba-302db47a1b00?ui=en-US&amp;rs=en-US&amp;ad=US" target="_blank">official documentation</a></p>
 
-<p>In that case, you need to click on <em>Retry</em> and that will take to you the following message to enable native database query. Click on Run. If you want to know more about risk involved with this option please see the <a href="https://support.office.com/en-us/article/import-data-from-database-using-native-database-query-power-query-f4f448ac-70d5-445b-a6ba-302db47a1b00?ui=en-US&amp;rs=en-US&amp;ad=US" target="_blank">official documentation</a></p>
-
-<p><img src="/img/enable_native_data_base_query_r_script.png" alt="R script interface in Power BI" /></p>
-
-<p>After that, it should run without any issue and you should see a window like the following:</p>
+<p><img src="/img/enable_native_data_base_query_r_script.png" alt="R script interface in Power BI" />
+After that, it should run without any issue and you should see a window like the following:</p>
 
 <p><img src="/img/r_script_navigator_screen.png" alt="R script interface in Power BI" /></p>
 
 <h2 id="loading-the-data">Loading the data</h2>
 
-<p>Once you are this stage, you select the data frame created with the R script (in this case <code>df</code>), and then click Load (or Edit if you want). This should load the data in Power BI. You can verify that in the Fields pane that the <code>df</code> has indeeded loaded as shown in the folowing:</p>
+<p>Once you are at this stage, you select the data frame created with the R script (in this case <code>df</code>), and then click Load (or Edit if you want). This should load the data in Power BI. You can verify that in the Fields pane that the <code>df</code> has indeeded loaded as shown in the folowing:</p>
 
-<p><img src="/img/r_script_fields_pane.png" alt="R script interface in Power BI" /></p>
-
-<p>Now that you&rsquo;ve successfully imported the data using R script, you can use the variables the typical way you would work within Power BI Desktop. If you want to add or edit any new column/variables or anything with the data using the R script, you would need to update the R script and load the data as usual.</p>
+<p><img src="/img/r_script_fields_pane.png" alt="R script interface in Power BI" />
+Now that you&rsquo;ve successfully imported the data using R script, you can use the variables the typical way you would work within Power BI Desktop. If you want to add or edit any new column/variables or anything with the data using the R script, you would need to update the R script and load the data as usual.</p>
 
 <p>When you edit the R script, you should not see any error/warning messages because you&rsquo;ve already made those exceptions.</p>
 
@@ -414,9 +410,8 @@ head(df)
 
 <p>Simply right-click on the data under the <strong>FIELDS</strong> pane, and select <em>Edit query</em>. This should open the Power Query Editor and you can click on the gean icon as shown below:</p>
 
-<p><img src="/img/edit_r_script.png" alt="Edit R script" /></p>
-
-<p>Clicking that gear icon ([1] in figure) should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click <strong>Close &amp; Apply</strong> ([2] in the figure) in the Power Query Editor to apply the changes.</p>
+<p><img src="/img/edit_r_script.png" alt="Edit R script" />
+Clicking that gear icon ([1] in figure) should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click <strong>Close &amp; Apply</strong> ([2] in the figure) in the Power Query Editor to apply the changes.</p>
 
 <div class="alert alert-note">
   <p>The next two sections will be updated shortly&hellip;</p>
@@ -427,8 +422,6 @@ head(df)
 <h1 id="using-r-to-query-data-sets-within-power-bi-and">Using R to query data sets within Power BI, and</h1>
 
 <h1 id="running-r-scripts-for-creating-visuals">Running R scripts for creating visuals</h1>
-
-<p>```</p>
 
     </div>
 

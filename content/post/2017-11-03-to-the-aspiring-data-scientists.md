@@ -7,6 +7,7 @@ categories: [Career]
 tags: [Data Science]
 description: "Simple guide for aspiring statisticians who wants to work in data science."
 toc: true
+thumbnail: "headers/getting-started.png"
 ---
 
 A lot of times interested folks contact me with a question like this: ‘I want to be a data scientist; can you help?’

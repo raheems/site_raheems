@@ -112,7 +112,7 @@ defaultContentLanguageInSubdir = false
   comment_count = true
 
   # Display next/previous section pager?
-  section_pager = false
+  section_pager = true
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -145,12 +145,13 @@ defaultContentLanguageInSubdir = false
   #
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
-  highlight = true
+  
+  highlight = false
   highlight_languages = ['r', 'python']
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  sharing = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -261,7 +262,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Posts"
-  url = "#posts"
+  url = "post"
   weight = 2
   
 [[menu.main]]
@@ -269,10 +270,10 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+#[[menu.main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 4
 
 [[menu.main]]
   name = "Teaching"

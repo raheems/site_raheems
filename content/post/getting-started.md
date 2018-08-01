@@ -145,3 +145,18 @@ For support, head over to the [Hugo discussion forum](http://discuss.gohugo.io).
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
 Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.
+
+# Shortcodes
+
+
+{{% alert note %}}
+Here's a tip or note...
+{{% /alert %}}
+
+
+{{% alert warning %}}
+Here's some important information...
+{{% /alert %}}
+
+
+

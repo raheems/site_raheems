@@ -12,11 +12,12 @@ header:
   image: ''
 ---
 
-
-Thinking of using github? Great.
+Thinking of using github? Great!
 
 Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. "GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features."[^wikipedia]
 [^wikipedia]: [Wikipedia](https://www.wikipedia.org)
+
+{{% toc %}}
 
 # Copying a remote repository to local
 
@@ -69,5 +70,5 @@ git comit -m "Update message"
 git push origin master
 ```
 
-Last updated: 2018-07-26
+
 

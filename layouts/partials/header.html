@@ -130,7 +130,7 @@
   <meta property="og:description" content="{{ $scr.Get "description" }}">
   
   {{ with .Params.thumbnail }}
-  <meta property="og:image" content="{{ printf "https://www.raheems.ca/img/%s" . | absURL }}">
+  <meta property="og:image" content="{{ printf "img/%s" . | absURL }}">
   {{end}}
   
   {{- with .Params.header.image }}<meta property="og:image" content="{{ printf "img/%s" . | absURL }}">{{end}}

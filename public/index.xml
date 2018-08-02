@@ -134,7 +134,8 @@ Clicking that gear icon should open the R script editor where you can replace th
 
 &lt;p&gt;Thinking of using github? Great!&lt;/p&gt;
 
-&lt;p&gt;Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. &amp;ldquo;GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:wikipedia&#34;&gt;&lt;a href=&#34;#fn:wikipedia&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;p&gt;Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. &amp;ldquo;GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:wikipedia&#34;&gt;&lt;a href=&#34;#fn:wikipedia&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
@@ -143,7 +144,7 @@ Clicking that gear icon should open the R script editor where you can replace th
 &lt;li&gt;&lt;a href=&#34;#syncing-a-remote-repository-on-two-local-hosts&#34;&gt;Syncing a remote repository on two local hosts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
-&lt;/p&gt;
+
 
 &lt;h1 id=&#34;copying-a-remote-repository-to-local&#34;&gt;Copying a remote repository to local&lt;/h1&gt;
 

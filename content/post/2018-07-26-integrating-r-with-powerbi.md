@@ -14,17 +14,17 @@ highlight: true
 thumbnail: "r_with_powerbi.png"
 ---
 
-*Microsoft Power BI* Desktop version nicely integrates with **R**. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. *Power BI* is Microsoft's flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for *Power BI Desktop*, you can do many cool things, which can be broadly categorized into three broad applications--
+*Microsoft Power BI* Desktop version nicely integrates with **R**. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. *Power BI* is Microsoft's flagship BI tool for creating dashboards and interactive reports. With R as a backend engine for *Power BI Desktop*, you can do many cool things, which can be categorized into three broad applications--
 
 * using R to import data into Power BI, 
-* using R to query data existing within Power BI, and 
+* using R to query existing data in Power BI, and 
 * running R scripts for creating visuals 
 
-In this article, I will demonstrate how to use R with Power BI to perform these applications.
+In this article, I have demonstrated how to use R with Power BI to perform these applications.
 
 {{% toc %}}
 
-# Using R to import data sets into Power BI
+# Application 1: Using R to import data sets into Power BI
 
 Power BI can import data from a variety of sources. For a complete list, please see [here.](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources)
 
@@ -95,8 +95,33 @@ Clicking that gear icon should open the R script editor where you can replace th
 The next two sections will be updated shortly...
 {{% /alert %}}
 
+{{% alert warning %}}
+The following sections are incomplete. Work in progress. Sorry for any inconvenience.
+{{% /alert %}}
 
-# Using R to query data sets within Power BI, and 
 
-# Running R scripts for creating visuals 
+# Application 2: Using R to query existing data in Power BI
+
+This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on [using R in Query Editor.](https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor) 
+I am giving an example to demonstrate how it works.
+
+## Example (data with missing values)
+
+Suppose we've imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.
+
+We use the R code to generate the data
+
+```
+df <- data.frame(
+  name = c("John", "Arif","Samira"),
+  sex = c(1, 1, 2),
+  gpa = c(4, 3.9, 3.95)
+)
+```
+
+
+
+# Application 3: Running R scripts for creating visuals
+
+
 

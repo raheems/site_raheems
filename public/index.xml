@@ -18,20 +18,20 @@
       <guid>/post/integrating-r-with-powerbi-desktop/</guid>
       <description>
 
-&lt;p&gt;&lt;em&gt;Microsoft Power BI&lt;/em&gt; Desktop version nicely integrates with &lt;strong&gt;R&lt;/strong&gt;. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. &lt;em&gt;Power BI&lt;/em&gt; is Microsoft&amp;rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for &lt;em&gt;Power BI Desktop&lt;/em&gt;, you can do many cool things, which can be broadly categorized into three broad applications&amp;ndash;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Microsoft Power BI&lt;/em&gt; Desktop version nicely integrates with &lt;strong&gt;R&lt;/strong&gt;. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. &lt;em&gt;Power BI&lt;/em&gt; is Microsoft&amp;rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend engine for &lt;em&gt;Power BI Desktop&lt;/em&gt;, you can do many cool things, which can be categorized into three broad applications&amp;ndash;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;using R to import data into Power BI,&lt;/li&gt;
-&lt;li&gt;using R to query data existing within Power BI, and&lt;/li&gt;
+&lt;li&gt;using R to query existing data in Power BI, and&lt;/li&gt;
 &lt;li&gt;running R scripts for creating visuals&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In this article, I will demonstrate how to use R with Power BI to perform these applications.&lt;/p&gt;
+&lt;p&gt;In this article, I have demonstrated how to use R with Power BI to perform these applications.&lt;/p&gt;
 
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#using-r-to-import-data-sets-into-power-bi&#34;&gt;Using R to import data sets into Power BI&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#application-1-using-r-to-import-data-sets-into-power-bi&#34;&gt;Application 1: Using R to import data sets into Power BI&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#preparing-the-r-script-in-r-studio&#34;&gt;Preparing the R script in R Studio&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#run-your-r-script-and-import-data&#34;&gt;Run your R script and import data&lt;/a&gt;&lt;/li&gt;
@@ -39,13 +39,16 @@
 &lt;li&gt;&lt;a href=&#34;#loading-the-data&#34;&gt;Loading the data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#updating-the-r-script&#34;&gt;Updating the R script&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#using-r-to-query-data-sets-within-power-bi-and&#34;&gt;Using R to query data sets within Power BI, and&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#running-r-scripts-for-creating-visuals&#34;&gt;Running R scripts for creating visuals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#application-2-using-r-to-query-existing-data-in-power-bi&#34;&gt;Application 2: Using R to query existing data in Power BI&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#example-data-with-missing-values&#34;&gt;Example (data with missing values)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#application-3-running-r-scripts-for-creating-visuals&#34;&gt;Application 3: Running R scripts for creating visuals&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 
 
-&lt;h1 id=&#34;using-r-to-import-data-sets-into-power-bi&#34;&gt;Using R to import data sets into Power BI&lt;/h1&gt;
+&lt;h1 id=&#34;application-1-using-r-to-import-data-sets-into-power-bi&#34;&gt;Application 1: Using R to import data sets into Power BI&lt;/h1&gt;
 
 &lt;p&gt;Power BI can import data from a variety of sources. For a complete list, please see &lt;a href=&#34;https://docs.microsoft.com/en-us/power-bi/desktop-data-sources&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
@@ -118,9 +121,31 @@ Clicking that gear icon should open the R script editor where you can replace th
 &lt;/div&gt;
 
 
-&lt;h1 id=&#34;using-r-to-query-data-sets-within-power-bi-and&#34;&gt;Using R to query data sets within Power BI, and&lt;/h1&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;The following sections are incomplete. Work in progress. Sorry for any inconvenience.&lt;/p&gt;
 
-&lt;h1 id=&#34;running-r-scripts-for-creating-visuals&#34;&gt;Running R scripts for creating visuals&lt;/h1&gt;
+&lt;/div&gt;
+
+
+&lt;h1 id=&#34;application-2-using-r-to-query-existing-data-in-power-bi&#34;&gt;Application 2: Using R to query existing data in Power BI&lt;/h1&gt;
+
+&lt;p&gt;This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on &lt;a href=&#34;https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor&#34; target=&#34;_blank&#34;&gt;using R in Query Editor.&lt;/a&gt;
+I am giving an example to demonstrate how it works.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-data-with-missing-values&#34;&gt;Example (data with missing values)&lt;/h2&gt;
+
+&lt;p&gt;Suppose we&amp;rsquo;ve imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.&lt;/p&gt;
+
+&lt;p&gt;We use the R code to generate the data&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;df &amp;lt;- data.frame(
+  name = c(&amp;quot;John&amp;quot;, &amp;quot;Arif&amp;quot;,&amp;quot;Samira&amp;quot;),
+  sex = c(1, 1, 2),
+  gpa = c(4, 3.9, 3.95)
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;application-3-running-r-scripts-for-creating-visuals&#34;&gt;Application 3: Running R scripts for creating visuals&lt;/h1&gt;
 </description>
     </item>
     

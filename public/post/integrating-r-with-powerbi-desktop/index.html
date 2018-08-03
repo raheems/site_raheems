@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Microsoft Power BI Desktop version nicely integrates with R. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. Power BI is Microsoft&rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for Power BI Desktop, you can do many cool things, which can be broadly categorized into three broad applications&ndash;">
+  <meta name="description" content="Microsoft Power BI Desktop version nicely integrates with R. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. Power BI is Microsoft&rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend engine for Power BI Desktop, you can do many cool things, which can be categorized into three broad applications&ndash;">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/integrating-r-with-powerbi-desktop/">
@@ -108,7 +108,7 @@
   <meta property="og:site_name" content="Enayetur Raheem">
   <meta property="og:url" content="/post/integrating-r-with-powerbi-desktop/">
   <meta property="og:title" content="Integrating R with Power BI | Enayetur Raheem">
-  <meta property="og:description" content="Microsoft Power BI Desktop version nicely integrates with R. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. Power BI is Microsoft&rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for Power BI Desktop, you can do many cool things, which can be broadly categorized into three broad applications&ndash;">
+  <meta property="og:description" content="Microsoft Power BI Desktop version nicely integrates with R. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. Power BI is Microsoft&rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend engine for Power BI Desktop, you can do many cool things, which can be categorized into three broad applications&ndash;">
   
   
   <meta property="og:image" content="/img/r_with_powerbi.png">
@@ -290,7 +290,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    5 min read
+    6 min read
   </span>
   
 
@@ -324,20 +324,20 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p><em>Microsoft Power BI</em> Desktop version nicely integrates with <strong>R</strong>. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. <em>Power BI</em> is Microsoft&rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend support engine for <em>Power BI Desktop</em>, you can do many cool things, which can be broadly categorized into three broad applications&ndash;</p>
+<p><em>Microsoft Power BI</em> Desktop version nicely integrates with <strong>R</strong>. R is an open source software for statistical computing and graphics. R has become popular among the data scientists because of its powerful data analytics and visualization capabilities. <em>Power BI</em> is Microsoft&rsquo;s flagship BI tool for creating dashboards and interactive reports. With R as a backend engine for <em>Power BI Desktop</em>, you can do many cool things, which can be categorized into three broad applications&ndash;</p>
 
 <ul>
 <li>using R to import data into Power BI,</li>
-<li>using R to query data existing within Power BI, and</li>
+<li>using R to query existing data in Power BI, and</li>
 <li>running R scripts for creating visuals</li>
 </ul>
 
-<p>In this article, I will demonstrate how to use R with Power BI to perform these applications.</p>
+<p>In this article, I have demonstrated how to use R with Power BI to perform these applications.</p>
 
 <h2>Table of Contents</h2>
 <nav id="TableOfContents">
 <ul>
-<li><a href="#using-r-to-import-data-sets-into-power-bi">Using R to import data sets into Power BI</a>
+<li><a href="#application-1-using-r-to-import-data-sets-into-power-bi">Application 1: Using R to import data sets into Power BI</a>
 <ul>
 <li><a href="#preparing-the-r-script-in-r-studio">Preparing the R script in R Studio</a></li>
 <li><a href="#run-your-r-script-and-import-data">Run your R script and import data</a></li>
@@ -345,13 +345,16 @@
 <li><a href="#loading-the-data">Loading the data</a></li>
 <li><a href="#updating-the-r-script">Updating the R script</a></li>
 </ul></li>
-<li><a href="#using-r-to-query-data-sets-within-power-bi-and">Using R to query data sets within Power BI, and</a></li>
-<li><a href="#running-r-scripts-for-creating-visuals">Running R scripts for creating visuals</a></li>
+<li><a href="#application-2-using-r-to-query-existing-data-in-power-bi">Application 2: Using R to query existing data in Power BI</a>
+<ul>
+<li><a href="#example-data-with-missing-values">Example (data with missing values)</a></li>
+</ul></li>
+<li><a href="#application-3-running-r-scripts-for-creating-visuals">Application 3: Running R scripts for creating visuals</a></li>
 </ul>
 </nav>
 
 
-<h1 id="using-r-to-import-data-sets-into-power-bi">Using R to import data sets into Power BI</h1>
+<h1 id="application-1-using-r-to-import-data-sets-into-power-bi">Application 1: Using R to import data sets into Power BI</h1>
 
 <p>Power BI can import data from a variety of sources. For a complete list, please see <a href="https://docs.microsoft.com/en-us/power-bi/desktop-data-sources" target="_blank">here.</a></p>
 
@@ -424,9 +427,31 @@ Clicking that gear icon should open the R script editor where you can replace th
 </div>
 
 
-<h1 id="using-r-to-query-data-sets-within-power-bi-and">Using R to query data sets within Power BI, and</h1>
+<div class="alert alert-warning">
+  <p>The following sections are incomplete. Work in progress. Sorry for any inconvenience.</p>
 
-<h1 id="running-r-scripts-for-creating-visuals">Running R scripts for creating visuals</h1>
+</div>
+
+
+<h1 id="application-2-using-r-to-query-existing-data-in-power-bi">Application 2: Using R to query existing data in Power BI</h1>
+
+<p>This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on <a href="https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor" target="_blank">using R in Query Editor.</a>
+I am giving an example to demonstrate how it works.</p>
+
+<h2 id="example-data-with-missing-values">Example (data with missing values)</h2>
+
+<p>Suppose we&rsquo;ve imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.</p>
+
+<p>We use the R code to generate the data</p>
+
+<pre><code>df &lt;- data.frame(
+  name = c(&quot;John&quot;, &quot;Arif&quot;,&quot;Samira&quot;),
+  sex = c(1, 1, 2),
+  gpa = c(4, 3.9, 3.95)
+)
+</code></pre>
+
+<h1 id="application-3-running-r-scripts-for-creating-visuals">Application 3: Running R scripts for creating visuals</h1>
 
     </div>
 

@@ -2,7 +2,7 @@
 title: Integrating R with Power BI
 author: Enayet
 date: '2018-08-01'
-lastmod: '2018-08-01'
+lastmod: '2018-08-03'
 slug: integrating-r-with-powerbi-desktop
 categories:
   - R

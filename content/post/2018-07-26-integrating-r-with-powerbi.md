@@ -18,7 +18,7 @@ thumbnail: "r_with_powerbi.png"
 
 * using R to import data into Power BI, 
 * using R to query existing data in Power BI, and 
-* running R scripts for creating visuals 
+* creating visuals with R script
 
 In this article, I have demonstrated how to use R with Power BI to perform these applications.
 
@@ -92,11 +92,7 @@ Simply right-click on the data under the **FIELDS** pane, and select *Edit query
 Clicking that gear icon should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click **Close \& Apply** ([2] in the figure) in the Power Query Editor to apply the changes.
 
 {{% alert note %}}
-The next two sections will be updated shortly...
-{{% /alert %}}
-
-{{% alert warning %}}
-The following sections are incomplete. Work in progress. Sorry for any inconvenience.
+The followign sections of the article are being updated and improved...
 {{% /alert %}}
 
 
@@ -119,9 +115,58 @@ df <- data.frame(
 )
 ```
 
+We will import this data using the R (discussed in Application 1). Once loaded, we will then do some transformations. To keep it simple, we will just recode the `sex` variable to indicate `Male` for `1` and `Female` for `2`. For that, we use the following codes which we would enter in the R script:
+
+```
+# 'dataset' holds the input data for this script
+library(dplyr)
+
+newcalc <- dataset %>% 
+  mutate(
+    sex = ifelse(sex == 1, "Male", "Female")
+  )
+```
+
+{{% alert note %}}
+Note that the name of the source data in R  is: `dataset`
+{{% /alert %}}
+
+## Entering R script to transform data
+
+- Click on the **Edit Queries** button in Power BI Desktop to open the query editor. 
+- Select the appropriate query under the `Queries[]` menu on the left of the screen.
+- Click on the **Transform** menu above the ribbon. 
+- You will see the **Run R Script** button with the `R` icon. Click that. 
+
+![R script Window](/img/r_script_window.png)
+
+Enter the R code that will be used to do the transformation. The screen would look like the following:
+
+![R script Window](/img/r_script_trans_code.png)
+
+Click OK. If you see any permission error or message like that, follow the prompts and allow the R codes to execute. Once you successfully pass all the prompts (if any), you will get the screen that looks like this--
+
+![R script Window](/img/r_script_trans_step1.png)
+
+Make sure to click on the `Table` field shown with the arrow in the figure. That will create the new step named `newcalc` and the table as shown in figure below.
+
+![R script Window](/img/r_script_trans_step2.png)
+
+Now you click on the **Home** menu and hit the icon that says **Close & Apply** as shown in the figure below.
+
+![R script Window](/img/r_script_trans_step3.png)
+
+Now the `sex` variable in the table should be a character variable with values `Male` and `Female` instead of `1`s and `2`s.
+
+And you are done!
 
 
-# Application 3: Running R scripts for creating visuals
+{{% alert warning %}}
+The content of the following section is being prepared, and will be available soon. 
+{{% /alert %}}
+ 
+
+# Application 3: Creating visuals with R script
 
 
 

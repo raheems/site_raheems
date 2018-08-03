@@ -290,7 +290,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    6 min read
+    7 min read
   </span>
   
 
@@ -329,7 +329,7 @@
 <ul>
 <li>using R to import data into Power BI,</li>
 <li>using R to query existing data in Power BI, and</li>
-<li>running R scripts for creating visuals</li>
+<li>creating visuals with R script</li>
 </ul>
 
 <p>In this article, I have demonstrated how to use R with Power BI to perform these applications.</p>
@@ -348,8 +348,9 @@
 <li><a href="#application-2-using-r-to-query-existing-data-in-power-bi">Application 2: Using R to query existing data in Power BI</a>
 <ul>
 <li><a href="#example-data-with-missing-values">Example (data with missing values)</a></li>
+<li><a href="#entering-r-script-to-transform-data">Entering R script to transform data</a></li>
 </ul></li>
-<li><a href="#application-3-running-r-scripts-for-creating-visuals">Application 3: Running R scripts for creating visuals</a></li>
+<li><a href="#application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</a></li>
 </ul>
 </nav>
 
@@ -422,13 +423,7 @@ Now that you&rsquo;ve successfully imported the data using R script, you can use
 Clicking that gear icon should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click <strong>Close &amp; Apply</strong> ([2] in the figure) in the Power Query Editor to apply the changes.</p>
 
 <div class="alert alert-note">
-  <p>The next two sections will be updated shortly&hellip;</p>
-
-</div>
-
-
-<div class="alert alert-warning">
-  <p>The following sections are incomplete. Work in progress. Sorry for any inconvenience.</p>
+  <p>The followign sections of the article are being updated and improved&hellip;</p>
 
 </div>
 
@@ -451,7 +446,61 @@ I am giving an example to demonstrate how it works.</p>
 )
 </code></pre>
 
-<h1 id="application-3-running-r-scripts-for-creating-visuals">Application 3: Running R scripts for creating visuals</h1>
+<p>We will import this data using the R (discussed in Application 1). Once loaded, we will then do some transformations. To keep it simple, we will just recode the <code>sex</code> variable to indicate <code>Male</code> for <code>1</code> and <code>Female</code> for <code>2</code>. For that, we use the following codes which we would enter in the R script:</p>
+
+<pre><code># 'dataset' holds the input data for this script
+library(dplyr)
+
+newcalc &lt;- dataset %&gt;% 
+  mutate(
+    sex = ifelse(sex == 1, &quot;Male&quot;, &quot;Female&quot;)
+  )
+</code></pre>
+
+<div class="alert alert-note">
+  <p>Note that the name of the source data in R  is: <code>dataset</code></p>
+
+</div>
+
+
+<h2 id="entering-r-script-to-transform-data">Entering R script to transform data</h2>
+
+<ul>
+<li>Click on the <strong>Edit Queries</strong> button in Power BI Desktop to open the query editor.</li>
+<li>Select the appropriate query under the <code>Queries[]</code> menu on the left of the screen.</li>
+<li>Click on the <strong>Transform</strong> menu above the ribbon.</li>
+<li>You will see the <strong>Run R Script</strong> button with the <code>R</code> icon. Click that.</li>
+</ul>
+
+<p><img src="/img/r_script_window.png" alt="R script Window" /></p>
+
+<p>Enter the R code that will be used to do the transformation. The screen would look like the following:</p>
+
+<p><img src="/img/r_script_trans_code.png" alt="R script Window" /></p>
+
+<p>Click OK. If you see any permission error or message like that, follow the prompts and allow the R codes to execute. Once you successfully pass all the prompts (if any), you will get the screen that looks like this&ndash;</p>
+
+<p><img src="/img/r_script_trans_step1.png" alt="R script Window" /></p>
+
+<p>Make sure to click on the <code>Table</code> field shown with the arrow in the figure. That will create the new step named <code>newcalc</code> and the table as shown in figure below.</p>
+
+<p><img src="/img/r_script_trans_step2.png" alt="R script Window" /></p>
+
+<p>Now you click on the <strong>Home</strong> menu and hit the icon that says <strong>Close &amp; Apply</strong> as shown in the figure below.</p>
+
+<p><img src="/img/r_script_trans_step3.png" alt="R script Window" /></p>
+
+<p>Now the <code>sex</code> variable in the table should be a character variable with values <code>Male</code> and <code>Female</code> instead of <code>1</code>s and <code>2</code>s.</p>
+
+<p>And you are done!</p>
+
+<div class="alert alert-warning">
+  <p>The content of the following section is being prepared, and will be available soon.</p>
+
+</div>
+
+
+<h1 id="application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</h1>
 
     </div>
 

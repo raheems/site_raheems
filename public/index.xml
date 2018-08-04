@@ -44,7 +44,10 @@
 &lt;li&gt;&lt;a href=&#34;#example-data-with-missing-values&#34;&gt;Example (data with missing values)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#entering-r-script-to-transform-data&#34;&gt;Entering R script to transform data&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#application-3-creating-visuals-with-r-script&#34;&gt;Application 3: Creating visuals with R script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#application-3-creating-visuals-with-r-script&#34;&gt;Application 3: Creating visuals with R script&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#example-with-mtcars-data&#34;&gt;Example with mtcars data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
 
@@ -116,12 +119,6 @@ Now that you&amp;rsquo;ve successfully imported the data using R script, you can
 &lt;p&gt;&lt;img src=&#34;/img/edit_r_script.png&#34; alt=&#34;Edit R script&#34; /&gt;
 Clicking that gear icon should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click &lt;strong&gt;Close &amp;amp; Apply&lt;/strong&gt; ([2] in the figure) in the Power Query Editor to apply the changes.&lt;/p&gt;
 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;The followign sections of the article are being updated and improved&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-
 &lt;h1 id=&#34;application-2-using-r-to-query-existing-data-in-power-bi&#34;&gt;Application 2: Using R to query existing data in Power BI&lt;/h1&gt;
 
 &lt;p&gt;This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on &lt;a href=&#34;https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor&#34; target=&#34;_blank&#34;&gt;using R in Query Editor.&lt;/a&gt;
@@ -188,13 +185,68 @@ newcalc &amp;lt;- dataset %&amp;gt;%
 
 &lt;p&gt;And you are done!&lt;/p&gt;
 
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;The content of the following section is being prepared, and will be available soon.&lt;/p&gt;
+&lt;h1 id=&#34;application-3-creating-visuals-with-r-script&#34;&gt;Application 3: Creating visuals with R script&lt;/h1&gt;
+
+&lt;p&gt;One of the best applications of R with Power BI is that you can harness the power of R to create high quality graphs and display them within your report/dashboard in Power BI. All the filters/slicers will work as usual and the graphs will the dynamically updated when you slice your data.&lt;/p&gt;
+
+&lt;p&gt;You can bring R visual into Power BI in two ways&amp;ndash;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Importing an R visual from &lt;a href=&#34;https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals&#34; target=&#34;_blank&#34;&gt;Microsoft AppSource&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;You can wirte you own code to create the visuals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this article, I&amp;rsquo;ve demonstrated how to use your own code to create visuals with R and display them in Power BI.&lt;/p&gt;
+
+&lt;h2 id=&#34;example-with-mtcars-data&#34;&gt;Example with mtcars data&lt;/h2&gt;
+
+&lt;p&gt;This assumes that we already have a dataset in Power BI. For the sake of reproducibility of this example, I will create the data. This time, I will just load a car data set called &lt;code&gt;mtcars&lt;/code&gt; available within R.&lt;/p&gt;
+
+&lt;p&gt;Simply follow the steps in Application 1, using the code entered in the R script window:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;df &amp;lt;- mtcars
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This loads the data in Power BI as shown in the figure below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/load_mtcars.png&#34; alt=&#34;mtcars Data&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, we would like to create a boxplot of gas mileage (miles per gallon) by cylinder type. We call the&lt;/p&gt;
+
+&lt;p&gt;To creat a R visual, click on the R icon from &lt;strong&gt;FIELDS&lt;/strong&gt; pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an &lt;strong&gt;R script editor&lt;/strong&gt; will show up at the bottom of the screen.&lt;/p&gt;
+
+&lt;p&gt;Select the variables you want to use for the visual. In our case, we would need &lt;code&gt;cyl&lt;/code&gt; and &lt;code&gt;mpg&lt;/code&gt;. Once you select them, the R script editor will update with some basic codes (uneditable).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/r_visual_script_editor.png&#34; alt=&#34;R visual script editor&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you are ready to enter the following code in the area where it says &amp;ldquo;Type or paste your R-script code here&amp;rdquo;. Enter the code below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;boxplot(mpg ~ cyl, data = dataset, 
+        xlab = &amp;quot;Number of Cylinders&amp;quot;,
+        ylab = &amp;quot;Miles Per Gallon&amp;quot;, 
+        main = &amp;quot;Gas Mileage&amp;quot;,
+        notch = FALSE, 
+        varwidth = TRUE, 
+        col = c(&amp;quot;blue&amp;quot;,&amp;quot;green&amp;quot;,&amp;quot;red&amp;quot;),
+        names = c(&amp;quot;High&amp;quot;,&amp;quot;Medium&amp;quot;,&amp;quot;Low&amp;quot;)
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then click on the little play button near the top of the script-editor to display the plot on canvas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/r_visual_script_editor_with_code.png&#34; alt=&#34;R visual editor with code&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;The key is that you have to use &lt;code&gt;dataset&lt;/code&gt; as your data object name in R-script visual.&lt;/p&gt;
 
 &lt;/div&gt;
 
 
-&lt;h1 id=&#34;application-3-creating-visuals-with-r-script&#34;&gt;Application 3: Creating visuals with R script&lt;/h1&gt;
+&lt;p&gt;And it&amp;rsquo;s that easy.&lt;/p&gt;
+
+&lt;p&gt;Hope this tutorial was useful for you. If you have any question or have some tips, please leave them as a comment.&lt;/p&gt;
+
+&lt;p&gt;I appreciate if you share this via social media. Thank you for reading.&lt;/p&gt;
 </description>
     </item>
     

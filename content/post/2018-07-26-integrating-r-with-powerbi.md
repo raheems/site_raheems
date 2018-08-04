@@ -5,7 +5,7 @@ date: '2018-08-01'
 lastmod: '2018-08-03'
 slug: integrating-r-with-powerbi-desktop
 categories:
-  - R
+  - Tutorials
 tags:
   - PowerBI
   - R
@@ -91,10 +91,6 @@ Simply right-click on the data under the **FIELDS** pane, and select *Edit query
 ![Edit R script](/img/edit_r_script.png)
 Clicking that gear icon should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click **Close \& Apply** ([2] in the figure) in the Power Query Editor to apply the changes.
 
-{{% alert note %}}
-The followign sections of the article are being updated and improved...
-{{% /alert %}}
-
 
 # Application 2: Using R to query existing data in Power BI
 
@@ -161,12 +157,64 @@ Now the `sex` variable in the table should be a character variable with values `
 And you are done!
 
 
-{{% alert warning %}}
-The content of the following section is being prepared, and will be available soon. 
-{{% /alert %}}
- 
 
 # Application 3: Creating visuals with R script
 
+One of the best applications of R with Power BI is that you can harness the power of R to create high quality graphs and display them within your report/dashboard in Power BI. All the filters/slicers will work as usual and the graphs will the dynamically updated when you slice your data.
+
+You can bring R visual into Power BI in two ways--
+
+- Importing an R visual from [Microsoft AppSource] (https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)
+- You can wirte you own code to create the visuals.
+
+In this article, I've demonstrated how to use your own code to create visuals with R and display them in Power BI.
+
+## Example with mtcars data
+
+This assumes that we already have a dataset in Power BI. For the sake of reproducibility of this example, I will create the data. This time, I will just load a car data set called `mtcars` available within R. 
+
+Simply follow the steps in Application 1, using the code entered in the R script window:
+
+```
+df <- mtcars
+```
+
+This loads the data in Power BI as shown in the figure below.
+
+![mtcars Data](/img/load_mtcars.png)
+
+Now, we would like to create a boxplot of gas mileage (miles per gallon) by cylinder type. We call the 
+
+To creat a R visual, click on the R icon from **FIELDS** pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an __R script editor__ will show up at the bottom of the screen. 
+
+Select the variables you want to use for the visual. In our case, we would need `cyl` and `mpg`. Once you select them, the R script editor will update with some basic codes (uneditable).
+
+![R visual script editor](/img/r_visual_script_editor.png)
+
+Now you are ready to enter the following code in the area where it says "Type or paste your R-script code here". Enter the code below:
+
+```
+boxplot(mpg ~ cyl, data = dataset, 
+        xlab = "Number of Cylinders",
+        ylab = "Miles Per Gallon", 
+        main = "Gas Mileage",
+        notch = FALSE, 
+        varwidth = TRUE, 
+        col = c("blue","green","red"),
+        names = c("High","Medium","Low")
+)
+```
+Then click on the little play button near the top of the script-editor to display the plot on canvas. 
+
+![R visual editor with code](/img/r_visual_script_editor_with_code.png)
+
+{{% alert note %}}
+The key is that you have to use `dataset` as your data object name in R-script visual. 
+{{% /alert %}}
 
 
+And it's that easy.
+
+Hope this tutorial was useful for you. If you have any question or have some tips, please leave them as a comment. 
+
+I appreciate if you share this via social media. Thank you for reading.

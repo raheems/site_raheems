@@ -292,7 +292,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    7 min read
+    9 min read
   </span>
   
 
@@ -309,7 +309,7 @@
   <span class="article-categories">
     <i class="fa fa-folder"></i>
     
-    <a href="/categories/r/">R</a>
+    <a href="/categories/tutorials/">Tutorials</a>
     
   </span>
   
@@ -352,7 +352,10 @@
 <li><a href="#example-data-with-missing-values">Example (data with missing values)</a></li>
 <li><a href="#entering-r-script-to-transform-data">Entering R script to transform data</a></li>
 </ul></li>
-<li><a href="#application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</a></li>
+<li><a href="#application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</a>
+<ul>
+<li><a href="#example-with-mtcars-data">Example with mtcars data</a></li>
+</ul></li>
 </ul>
 </nav>
 
@@ -424,12 +427,6 @@ Now that you&rsquo;ve successfully imported the data using R script, you can use
 <p><img src="/img/edit_r_script.png" alt="Edit R script" />
 Clicking that gear icon should open the R script editor where you can replace the existing code with the updated code. When you are ready, click OK, and then click <strong>Close &amp; Apply</strong> ([2] in the figure) in the Power Query Editor to apply the changes.</p>
 
-<div class="alert alert-note">
-  <p>The followign sections of the article are being updated and improved&hellip;</p>
-
-</div>
-
-
 <h1 id="application-2-using-r-to-query-existing-data-in-power-bi">Application 2: Using R to query existing data in Power BI</h1>
 
 <p>This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on <a href="https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor" target="_blank">using R in Query Editor.</a>
@@ -496,13 +493,68 @@ newcalc &lt;- dataset %&gt;%
 
 <p>And you are done!</p>
 
-<div class="alert alert-warning">
-  <p>The content of the following section is being prepared, and will be available soon.</p>
+<h1 id="application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</h1>
+
+<p>One of the best applications of R with Power BI is that you can harness the power of R to create high quality graphs and display them within your report/dashboard in Power BI. All the filters/slicers will work as usual and the graphs will the dynamically updated when you slice your data.</p>
+
+<p>You can bring R visual into Power BI in two ways&ndash;</p>
+
+<ul>
+<li>Importing an R visual from <a href="https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals" target="_blank">Microsoft AppSource</a></li>
+<li>You can wirte you own code to create the visuals.</li>
+</ul>
+
+<p>In this article, I&rsquo;ve demonstrated how to use your own code to create visuals with R and display them in Power BI.</p>
+
+<h2 id="example-with-mtcars-data">Example with mtcars data</h2>
+
+<p>This assumes that we already have a dataset in Power BI. For the sake of reproducibility of this example, I will create the data. This time, I will just load a car data set called <code>mtcars</code> available within R.</p>
+
+<p>Simply follow the steps in Application 1, using the code entered in the R script window:</p>
+
+<pre><code>df &lt;- mtcars
+</code></pre>
+
+<p>This loads the data in Power BI as shown in the figure below.</p>
+
+<p><img src="/img/load_mtcars.png" alt="mtcars Data" /></p>
+
+<p>Now, we would like to create a boxplot of gas mileage (miles per gallon) by cylinder type. We call the</p>
+
+<p>To creat a R visual, click on the R icon from <strong>FIELDS</strong> pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an <strong>R script editor</strong> will show up at the bottom of the screen.</p>
+
+<p>Select the variables you want to use for the visual. In our case, we would need <code>cyl</code> and <code>mpg</code>. Once you select them, the R script editor will update with some basic codes (uneditable).</p>
+
+<p><img src="/img/r_visual_script_editor.png" alt="R visual script editor" /></p>
+
+<p>Now you are ready to enter the following code in the area where it says &ldquo;Type or paste your R-script code here&rdquo;. Enter the code below:</p>
+
+<pre><code>boxplot(mpg ~ cyl, data = dataset, 
+        xlab = &quot;Number of Cylinders&quot;,
+        ylab = &quot;Miles Per Gallon&quot;, 
+        main = &quot;Gas Mileage&quot;,
+        notch = FALSE, 
+        varwidth = TRUE, 
+        col = c(&quot;blue&quot;,&quot;green&quot;,&quot;red&quot;),
+        names = c(&quot;High&quot;,&quot;Medium&quot;,&quot;Low&quot;)
+)
+</code></pre>
+
+<p>Then click on the little play button near the top of the script-editor to display the plot on canvas.</p>
+
+<p><img src="/img/r_visual_script_editor_with_code.png" alt="R visual editor with code" /></p>
+
+<div class="alert alert-note">
+  <p>The key is that you have to use <code>dataset</code> as your data object name in R-script visual.</p>
 
 </div>
 
 
-<h1 id="application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</h1>
+<p>And it&rsquo;s that easy.</p>
+
+<p>Hope this tutorial was useful for you. If you have any question or have some tips, please leave them as a comment.</p>
+
+<p>I appreciate if you share this via social media. Thank you for reading.</p>
 
     </div>
 

@@ -89,3 +89,22 @@ df <- data.frame(
 # We would like to recode the sex variable to indicate Male for 1 and Female for 2
 
 df
+
+
+# Fri Aug 03 21:11:14 2018 ------------------------------
+
+# Boxplot demonstration
+
+# Plot the chart.
+head(mtcars)
+
+boxplot(mpg ~ cyl, data = dataset, 
+        xlab = "Number of Cylinders",
+        ylab = "Miles Per Gallon", 
+        main = "Gas Mileage",
+        notch = FALSE, 
+        varwidth = TRUE, 
+        col = c("blue","green","red"),
+        names = c("High","Medium","Low")
+)
+

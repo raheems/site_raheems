@@ -349,7 +349,7 @@
 </ul></li>
 <li><a href="#application-2-using-r-to-query-existing-data-in-power-bi">Application 2: Using R to query existing data in Power BI</a>
 <ul>
-<li><a href="#example-data-with-missing-values">Example (data with missing values)</a></li>
+<li><a href="#example-data-for-recoding">Example data for recoding</a></li>
 <li><a href="#entering-r-script-to-transform-data">Entering R script to transform data</a></li>
 </ul></li>
 <li><a href="#application-3-creating-visuals-with-r-script">Application 3: Creating visuals with R script</a>
@@ -432,7 +432,7 @@ Clicking that gear icon should open the R script editor where you can replace th
 <p>This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on <a href="https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor" target="_blank">using R in Query Editor.</a>
 I am giving an example to demonstrate how it works.</p>
 
-<h2 id="example-data-with-missing-values">Example (data with missing values)</h2>
+<h2 id="example-data-for-recoding">Example data for recoding</h2>
 
 <p>Suppose we&rsquo;ve imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.</p>
 
@@ -521,7 +521,7 @@ newcalc &lt;- dataset %&gt;%
 
 <p>Now, we would like to create a boxplot of gas mileage (miles per gallon) by cylinder type. We call the</p>
 
-<p>To creat a R visual, click on the R icon from <strong>FIELDS</strong> pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an <strong>R script editor</strong> will show up at the bottom of the screen.</p>
+<p>To creat a R visual, click on the R icon from <strong>VISUALIZATIONS</strong> pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an <strong>R script editor</strong> will show up at the bottom of the screen.</p>
 
 <p>Select the variables you want to use for the visual. In our case, we would need <code>cyl</code> and <code>mpg</code>. Once you select them, the R script editor will update with some basic codes (uneditable).</p>
 

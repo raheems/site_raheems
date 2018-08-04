@@ -97,7 +97,7 @@ Clicking that gear icon should open the R script editor where you can replace th
 This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on [using R in Query Editor.](https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor) 
 I am giving an example to demonstrate how it works.
 
-## Example (data with missing values)
+## Example data for recoding values
 
 Suppose we've imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.
 
@@ -185,7 +185,7 @@ This loads the data in Power BI as shown in the figure below.
 
 Now, we would like to create a boxplot of gas mileage (miles per gallon) by cylinder type. We call the 
 
-To creat a R visual, click on the R icon from **FIELDS** pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an __R script editor__ will show up at the bottom of the screen. 
+To creat a R visual, click on the R icon from **VISUALIZATIONS** pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an __R script editor__ will show up at the bottom of the screen. 
 
 Select the variables you want to use for the visual. In our case, we would need `cyl` and `mpg`. Once you select them, the R script editor will update with some basic codes (uneditable).
 

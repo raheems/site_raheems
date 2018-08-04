@@ -41,7 +41,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#application-2-using-r-to-query-existing-data-in-power-bi&#34;&gt;Application 2: Using R to query existing data in Power BI&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#example-data-with-missing-values&#34;&gt;Example (data with missing values)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-data-for-recoding&#34;&gt;Example data for recoding&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#entering-r-script-to-transform-data&#34;&gt;Entering R script to transform data&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#application-3-creating-visuals-with-r-script&#34;&gt;Application 3: Creating visuals with R script&lt;/a&gt;
@@ -124,7 +124,7 @@ Clicking that gear icon should open the R script editor where you can replace th
 &lt;p&gt;This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on &lt;a href=&#34;https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor&#34; target=&#34;_blank&#34;&gt;using R in Query Editor.&lt;/a&gt;
 I am giving an example to demonstrate how it works.&lt;/p&gt;
 
-&lt;h2 id=&#34;example-data-with-missing-values&#34;&gt;Example (data with missing values)&lt;/h2&gt;
+&lt;h2 id=&#34;example-data-for-recoding&#34;&gt;Example data for recoding&lt;/h2&gt;
 
 &lt;p&gt;Suppose we&amp;rsquo;ve imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.&lt;/p&gt;
 
@@ -213,7 +213,7 @@ newcalc &amp;lt;- dataset %&amp;gt;%
 
 &lt;p&gt;Now, we would like to create a boxplot of gas mileage (miles per gallon) by cylinder type. We call the&lt;/p&gt;
 
-&lt;p&gt;To creat a R visual, click on the R icon from &lt;strong&gt;FIELDS&lt;/strong&gt; pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an &lt;strong&gt;R script editor&lt;/strong&gt; will show up at the bottom of the screen.&lt;/p&gt;
+&lt;p&gt;To creat a R visual, click on the R icon from &lt;strong&gt;VISUALIZATIONS&lt;/strong&gt; pane as seen in the above image (the icon is pointed with a red arrow).This should create a placeholder for a visual in the canvas and an &lt;strong&gt;R script editor&lt;/strong&gt; will show up at the bottom of the screen.&lt;/p&gt;
 
 &lt;p&gt;Select the variables you want to use for the visual. In our case, we would need &lt;code&gt;cyl&lt;/code&gt; and &lt;code&gt;mpg&lt;/code&gt;. Once you select them, the R script editor will update with some basic codes (uneditable).&lt;/p&gt;
 

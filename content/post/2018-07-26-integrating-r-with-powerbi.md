@@ -97,7 +97,7 @@ Clicking that gear icon should open the R script editor where you can replace th
 This application is useful for manipulating an already imported dataset. That is, data have been imported into Power BI Desktop, and now you want to do some cleaning or perform transformations. Essentially, you could do all of those while importing the data (Application 1). Interested readers may find the detailed document available from Microsoft Power BI on [using R in Query Editor.](https://docs.microsoft.com/en-us/power-bi/desktop-r-in-query-editor) 
 I am giving an example to demonstrate how it works.
 
-## Example data for recoding values
+## Example to demonstrate re-coding
 
 Suppose we've imported a data set with missing vlaues and unusually large numbers in some of the fields. We want to perform some cleaning. Of course this is a fictitious example just to demonstrate the idea.
 

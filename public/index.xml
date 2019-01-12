@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Is Childhood Overweight/Obesity Perceived as a Health Problem by Mothers of Preschool Aged Children in Bangladesh? A Community Level Cross-Sectional Study</title>
+      <link>/publication/perception_childhood_obesity_2019/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/perception_childhood_obesity_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Integrating R with Power BI</title>
       <link>/post/integrating-r-with-powerbi-desktop/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
@@ -260,8 +269,7 @@ newcalc &amp;lt;- dataset %&amp;gt;%
 
 &lt;p&gt;Thinking of using github? Great!&lt;/p&gt;
 
-&lt;p&gt;Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. &amp;ldquo;GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:wikipedia&#34;&gt;&lt;a href=&#34;#fn:wikipedia&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
+&lt;p&gt;Github needs no introduction. If you are unfamiliar with git, its a version control system for tracking changes in computer (programming) codes. &amp;ldquo;GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:wikipedia&#34;&gt;&lt;a href=&#34;#fn:wikipedia&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
 &lt;ul&gt;
@@ -270,7 +278,7 @@ newcalc &amp;lt;- dataset %&amp;gt;%
 &lt;li&gt;&lt;a href=&#34;#syncing-a-remote-repository-on-two-local-hosts&#34;&gt;Syncing a remote repository on two local hosts&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/nav&gt;
-
+&lt;/p&gt;
 
 &lt;h1 id=&#34;copying-a-remote-repository-to-local&#34;&gt;Copying a remote repository to local&lt;/h1&gt;
 
@@ -364,6 +372,7 @@ git push origin master
       <guid>/post/python-using-rstudio-ide/</guid>
       <description>&lt;p&gt;This is test post to check if Python code works. This is test.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(reticulate)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;reticulate&amp;#39; was built under R version 3.4.4&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;python&#34;&gt;&lt;code&gt;import numpy as np
 x = [1, 2, 3]
 print(x)&lt;/code&gt;&lt;/pre&gt;
@@ -907,25 +916,6 @@ Charlotte, NC 28202, USA&lt;/p&gt;
       
       <guid>/publication/thalassemia-south-asia/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Preparing for statistics jobs in the industry</title>
-      <link>/post/preparing-for-statistics-jobs-in-the-industry/</link>
-      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/preparing-for-statistics-jobs-in-the-industry/</guid>
-      <description>&lt;p&gt;I would like to share a few things with you from recent experience of my transition from academia to industry. Of course I have a lot more experience than a fresh graduate, but something I’ve experienced that many others may benefit from. I believe this will help you to think at least. I’ve written this with the candidates in the US job market in mind.&lt;/p&gt;
-&lt;p&gt;Firstly, I would say this– lies, damn lies, statistics, AND one-page resume. I hope you got what I meant. One-page resume never worked for me. Here’s why.&lt;/p&gt;
-&lt;p&gt;Hiring managers rarely review your resume when you apply for a job. It normally goes through an initial round of review by recruiters. Organizations have partnered with recruiting companies and they do these initial screening. Literally, they will never forward any resume that is one-page. Because one-page resume rarely tells what you have accomplished. It’ll only make you look like hundred or thousand others candidates who have the exact same background and experience (R, SAS, courses, etc.) as you have.&lt;/p&gt;
-&lt;p&gt;You have to literally describe each of your projects and your contributions. You don’t have to describe every details. In fact you should not reveal every details but sufficient enough so that the recruiter understands it and convinced enough to forward your resume.&lt;/p&gt;
-&lt;p&gt;The hiring manager would then scan only your first page, perhaps. So prepare your resume as such.&lt;/p&gt;
-&lt;p&gt;Secondly, follow the jobs market closely and regularly. See what the market is looking for. That will put you into the real perspective because as a result of you being well informed, your resume will reflect that.&lt;/p&gt;
-&lt;p&gt;Thirdly, you need to submit your well detailed resume to several job sites such as CareerBuilder, Indeed, LinkedIn, Monster, Dice etc. I found CareerBuilder and Indeed to be better for stat (industry) jobs. LinkedIn is also good for finding local opportunities.&lt;/p&gt;
-&lt;p&gt;PLEASE spend a lot of time to properly submit your resume to these job sites with all possible keywords appropriate for your discipline. It will take about 2 to 3 weeks before the resume is propagated to various recruiters’ networks. Once recruiters find your resume, they will directly call you. Recruiters get a good amount of commission when they are able to forward a good candidate and the company hires the candidate. So they always try to help you. Often they will suggest you to modify your resume to make it suitable for that particular position.&lt;/p&gt;
-&lt;p&gt;Fourth, have patience. A lot of patience. You have to knock every possible door, and only some doors will open.&lt;/p&gt;
-&lt;p&gt;Fifth, prepare yourself for the interview. I find Liz Ryan (www.linkedin.com/in/lizryan) to be excellent. You will find her in LinkedIn. Follow her. It’s really really helpful. I wish I would have found her earlier.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
